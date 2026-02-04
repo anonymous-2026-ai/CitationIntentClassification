@@ -8,4 +8,4 @@ and ACL-ARC, SciCite dataset at: https://github.com/allenai/scicite .
 
 *** Training *** 
 
-You can go to the folder for the specific dataset to run the training code. Look at the run.sh file and change the path to your dataset with '--data_dir' parameter. You can set up your own hyperparameter to start the training process. 
+You can go to the folder for the specific dataset to run the training/testing code. Look at the run.sh file and change the path to your dataset with '--data_dir' parameter. You can set up your own hyperparameter to start the training process. 
