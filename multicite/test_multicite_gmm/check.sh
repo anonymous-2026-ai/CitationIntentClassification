@@ -1,0 +1,6 @@
+python run_citation_classification.py --model_name_or_path roberta-base --model_type roberta --task_name ours --do_train --do_test --data_dir data/classification_gold_context --max_seq_length 512 --per_gpu_train_batch_size 1 --learning_rate 1e-5 --num_train_epochs 5 --output_dir result_baseline --seed 0 --classification_type multilabel --overwrite_cache --overwrite_output_dir --gradient_accumulation_steps 4 --save_steps -1 --k 0 --logging_steps 100 --evaluate_during_training --per_gpu_eval_batch_size 1
+
+
+ loss  tensor(0.1707, device='cuda:0', grad_fn=<DivBackward0>)                                                                                                                 | 0/5491 [00:00<?, ?it/s] 
+																																																		1 loss  tensor(0.1770, device='cuda:0', grad_fn=<DivBackward0>)                                                                                                       | 1/5491 [00:01<3:00:27,  1.97s/it] 
+																																																		2 loss  tensor(0.1663, device='cuda:0', grad_fn=<DivBackward0>)     
