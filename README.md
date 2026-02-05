@@ -10,6 +10,7 @@ Besides, to run the clustering algorithm, you need to install 2 additional libra
 
 2) GMM: https://github.com/ldeecke/gmm-torch
 
+Actually, we also downloaded two files and put them into specific folders. You can use them directly in the code if you do not want to install new packages. 
 # Preparing Dataset 
 
 You can download from the following links as follows:
