@@ -5,7 +5,7 @@ This is the implementation for our work: SynIntent
 
 You can download from the following links as follows:
 
-1) Multicite: https://github.com/allenai/multicite
+1) Multicite: [https://github.com/allenai/multicite](https://github.com/allenai/multicite/tree/master/data/classification_gold_context)
    
 2) ACL-ARC, SciCite dataset: https://github.com/allenai/scicite
 
