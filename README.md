@@ -3,8 +3,11 @@ This is the implementation for our work: SynIntent
 
 # Preparing Dataset 
 
-You can download the Multicite dataset at: https://github.com/allenai/multicite
-and ACL-ARC, SciCite dataset at: https://github.com/allenai/scicite . 
+You can download from the following links as follows:
+
+1) Multicite: https://github.com/allenai/multicite
+   
+2) ACL-ARC, SciCite dataset: https://github.com/allenai/scicite
 
 # Training 
 
