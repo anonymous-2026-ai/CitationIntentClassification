@@ -22,7 +22,7 @@ You can download the datasets from the following links:
 
 You can go to the folder for the specific dataset to run the training/testing code. Look at the run.sh file and change the path to your dataset with '--data_dir' parameter. You can set up your own hyperparameters to start the training process by running: bash run.sh.
 
-Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to refactor our code to enhance convenience.
+Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to enhance convenience.
 
 # Testing 
 
