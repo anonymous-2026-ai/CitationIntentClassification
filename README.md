@@ -1,4 +1,4 @@
-# CitationIntentClassification
+# Overview
 This is the implementation for our work: SynIntent
 
 # Preparing Dataset 
