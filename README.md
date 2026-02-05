@@ -4,13 +4,12 @@ This is the implementation for our work: **SynIntent**
 # Requirements
 To run our system, you only need to install some very basic libraries such as: pytorch, transformers = 4.32.1. 
 
-Besides, to run the clustering algorithm, you need to install 2 additional libraries for k-means and GMM:
+Besides, to run the clustering algorithm, you need to install and download 2 additional libraries for k-means and GMM:
 
 1) k-means: https://github.com/subhadarship/kmeans_pytorch
 
 2) GMM: https://github.com/ldeecke/gmm-torch
 
-Actually, we also downloaded two files and put them into specific folders. You can use them directly in the code if you do not want to install new packages. 
 # Preparing Dataset 
 
 You can download from the following links as follows:
