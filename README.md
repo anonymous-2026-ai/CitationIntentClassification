@@ -8,7 +8,9 @@ Besides, to run the clustering algorithm, you need to install 2 additional libra
 
 1) k-means: https://github.com/subhadarship/k-meanss_pytorch
 
-2) GMM: https://github.com/ldeecke/gmm-torch
+2) https://github.com/subhadarship/kmeans_pytorch
+
+3) GMM: https://github.com/ldeecke/gmm-torch
 
 # Preparing Dataset 
 
