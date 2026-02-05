@@ -6,11 +6,9 @@ To run our system, you only need to install some very basic libraries such as: p
 
 Besides, to run the clustering algorithm, you need to install 2 additional libraries for k-means and GMM:
 
-1) k-means: https://github.com/subhadarship/k-meanss_pytorch
+1) k-means: https://github.com/subhadarship/kmeans_pytorch
 
-2) https://github.com/subhadarship/kmeans_pytorch
-
-3) GMM: https://github.com/ldeecke/gmm-torch
+2) GMM: https://github.com/ldeecke/gmm-torch
 
 # Preparing Dataset 
 
