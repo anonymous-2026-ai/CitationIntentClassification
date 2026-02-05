@@ -12,7 +12,7 @@ Besides, to run the clustering algorithm, you need to install and download 2 add
 
 # Preparing Dataset 
 
-You can download from the following links as follows:
+You can download the datasets from the following links:
 
 1) Multicite: [https://github.com/allenai/multicite](https://github.com/allenai/multicite/tree/master/data/classification_gold_context)
    
