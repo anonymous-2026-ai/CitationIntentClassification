@@ -16,7 +16,7 @@ You can download the datasets from the following links:
 
 1) Multicite: [https://github.com/allenai/multicite](https://github.com/allenai/multicite/tree/master/data/classification_gold_context)
    
-2) ACL-ARC, SciCite dataset: https://github.com/allenai/scicite
+2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite
 
 # Training 
 
