@@ -18,6 +18,8 @@ You can download the datasets from the following links:
    
 2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite
 
+Or you can run our code directly with our processed datasets.
+
 # Training 
 
 You can go to the folder for the specific dataset to run the training/testing code. Look at the run.sh file and change the path to your dataset with '--data_dir' parameter. You can set up your own hyperparameters to start the training process by running: bash run.sh.
