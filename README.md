@@ -10,7 +10,7 @@ Besides, to run the clustering algorithm, you need to install and download 2 add
 
 2) GMM: https://github.com/ldeecke/gmm-torch
 
-# Preparing Dataset 
+# Preparing Datasets
 
 You can download the datasets from the following links:
 
