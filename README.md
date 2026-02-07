@@ -1,5 +1,5 @@
 # Overview
-This is the implementation for our work: **SynIntent**
+This repository contains the implementation for our submitted manuscript. We are actively refining the codebase, improving documentation, and refactoring for better clarity during the peer-review process.
 
 # Requirements
 To run our system, you only need to install some very basic libraries such as: pytorch, transformers = 4.32.1. 
