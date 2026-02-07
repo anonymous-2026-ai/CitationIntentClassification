@@ -11,7 +11,7 @@ do
         --model_type bert \
         --task_name ours \
         --do_test \
-        --data_dir ../../../datasets/data_multicite/ \
+        --data_dir ../../datasets/data_multicite/ \
         --max_seq_length 512 --per_gpu_train_batch_size 1 \
         --learning_rate ${LEARNING_RATE} --num_train_epochs 5 \
         --output_dir result_baseline --seed 100 \
