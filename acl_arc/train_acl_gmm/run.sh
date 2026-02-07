@@ -1,10 +1,10 @@
 for LEARNING_RATE in 1e-5 
 do
-for n_word in 1 
+for n_word in 1 2 3 
 do
-for n_sent in 1
+for n_sent in 1 2 3 
 do
-for bs in 2 
+for bs in 2 4 8 
 do
 for SEED in 100
 do
