@@ -16,7 +16,9 @@ You can download the datasets from the following links:
 
 1) Multicite: [https://github.com/allenai/multicite](https://github.com/allenai/multicite/tree/master/data/classification_gold_context)
    
-2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite
+2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite. 
+
+However, after downloading the files, you have to convert them from .jsonl format to .json format. 
 
 Or you can run our code directly with our processed datasets.
 
