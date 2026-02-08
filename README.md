@@ -18,9 +18,9 @@ You can download the datasets from the following links:
    
 2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite. 
 
-However, after downloading the files, you have to convert them from .jsonl format to .json format. 
+However, after downloading the files, you have to convert them from .jsonl format to .json format to use them with our system. 
 
-Or you can run our code directly with our processed datasets.
+If you do not want to make any additional preprocessing steps, you can run our code directly with our processed datasets.
 
 # Training 
 
