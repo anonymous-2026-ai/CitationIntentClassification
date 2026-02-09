@@ -1,12 +1,12 @@
-for LEARNING_RATE in 1e-6 
+for LEARNING_RATE in 1e-6
 do
-for n_word in 1 
+for n_word in 1
 do
-for n_sent in 1 
+for n_sent in 1
 do
-for bs in 2 
+for bs in 2
 do
-for SEED in 100
+for SEED in 0
 do
 for save_step in 1000
 do 
@@ -19,7 +19,7 @@ do
         --model_type bert \
         --task_name ours \
         --do_train --do_eval \
-        --data_dir ../../datasets/data_scicite/ \
+        --data_dir ../../datasets/data_multicite/ \
         --max_seq_length 512 --per_gpu_train_batch_size 1 \
         --learning_rate ${LEARNING_RATE} --num_train_epochs 10 \
         --output_dir result_baseline --seed ${SEED} \
