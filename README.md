@@ -1,0 +1,33 @@
+# Overview
+This repository contains the implementation for our submitted manuscript. We are actively refining the codebase, improving documentation, and refactoring for better clarity during the peer-review process.
+
+# Requirements
+To run our system, you only need to install some very basic libraries such as: pytorch, transformers = 4.32.1. 
+
+Besides, to run the clustering algorithm, you need to install and download 2 additional libraries for k-means and GMM from the following links:
+
+1) k-means: https://github.com/subhadarship/kmeans_pytorch
+
+2) GMM: https://github.com/ldeecke/gmm-torch
+
+# Preparing Datasets
+
+You can download the datasets from the following links:
+
+1) Multicite: [https://github.com/allenai/multicite](https://github.com/allenai/multicite/tree/master/data/classification_gold_context)
+   
+2) ACL-ARC, SciCite datasets: https://github.com/allenai/scicite. 
+
+However, after downloading the files, you have to convert them from .jsonl format to .json format to use them with our system. 
+
+If you do not want to make any additional preprocessing steps, you can run our code directly with our processed datasets.
+
+# Training 
+
+You can go to the folder for the specific dataset to run the training/testing code. Look at the run.sh file and change the path to your dataset with '--data_dir' parameter. You can set up your own hyperparameters to start the training process by running: bash run.sh.
+
+Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to enhance convenience.
+
+# Testing 
+
+You need to copy the checkpoint you want to test from train_folder to the test_folder. In the test_folder, please name the test model as 'model_test'. After that, you can start the testing process by running: bash run.sh. 
