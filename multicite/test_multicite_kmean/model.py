@@ -4,7 +4,7 @@ import torch
 from Sentence_Function_Interaction import * 
 from Word_Function_Interaction import  *
 from Doc_representation import * 
-from kmeans_pytorch.kmeans_pytorch import kmeans
+from kmeans_pytorch import kmeans
 import numpy as np
 # from sklearn.cluster import KMeans
 
