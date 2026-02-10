@@ -28,12 +28,3 @@ def calculate_matmul(mat_a, mat_b):
     """
     assert mat_a.shape[-2] == 1 and mat_b.shape[-1] == 1
     return torch.sum(mat_a.squeeze(-2) * mat_b.squeeze(-1), dim=2, keepdim=True)
-
-
-from transformers import AutoTokenizer
-
-# Load tokenizer của SciBERT
-tokenizer = AutoTokenizer.from_pretrained("allenai/scibert_scivocab_uncased")
-
-print(f"Index của [CLS]: {tokenizer.cls_token_id}")
-print(f"Index của [SEP]: {tokenizer.sep_token_id}")
