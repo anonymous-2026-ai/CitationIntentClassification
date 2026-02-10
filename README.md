@@ -30,7 +30,7 @@ Step 2: Look at the run.sh file and change the path to your dataset with '--data
 
 Step 3: To train, you run: bash run.sh.
 
-Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to enhance convenience.
+Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to enhance convenience. Each training and testing run was conducted on a single GPU. 
 
 # Testing 
 
