@@ -8,7 +8,7 @@ for bs in 2 4 8 16 32
 do
 for SEED in 100
 do
-for save_step in 1000
+for save_step in 500
 do 
 for warmup_step in 0 500 1000 2000
 do
