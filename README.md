@@ -30,4 +30,10 @@ Note that: In this version, the number of clusters $K$ is fixed in model.py, but
 
 # Testing 
 
-You need to copy the checkpoint you want to test from train_folder to the test_folder. In the test_folder, please name the test model as 'model_test'. After that, you can start the testing process by running: bash run.sh. 
+Step 1: You need to copy the checkpoint you want to test from train_folder to the test_folder.
+
+Step 2: In the test_folder, please name the test model as 'model_test'. 
+
+Step 3: After that, you have to set up exact the value of hyperparameters of the test model to start the testing process. 
+
+Step 4: To test, you run: bash run.sh.  
