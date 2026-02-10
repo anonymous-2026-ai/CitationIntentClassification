@@ -24,7 +24,9 @@ If you do not want to make any additional preprocessing steps, you can run our c
 
 # Training 
 
-First, we set up a single-GPU environment for each run by executing: export CUDA_VISIBLE_DEVICES=0 to ensure the model only utilizes one specific device.
+First, we set up a single-GPU environment for each run by executing: export CUDA_VISIBLE_DEVICES=0 
+
+to ensure the model only utilizes one specific device.
 
 Step 1: You can go to the folder for the specific dataset to run the training/testing code. 
 
@@ -35,7 +37,9 @@ Step 3: To train, you run: bash run.sh.
 Note that: In this version, the number of clusters $K$ is fixed in model.py, but you can easily change it. We will continue refactoring the code to enhance convenience. 
 
 # Testing 
-First, we set up a single-GPU environment for each run by executing: export CUDA_VISIBLE_DEVICES=0 to ensure the model only utilizes one specific device.
+First, we set up a single-GPU environment for each run by executing: export CUDA_VISIBLE_DEVICES=0 
+
+to ensure the model only utilizes one specific device.
 
 Step 1: Select the optimal checkpoint based on your preferred performance metrics and transfer it from the train_folder to the test_folder for evaluation.
 
