@@ -24,6 +24,8 @@ However, after downloading the files, you have to convert them from .jsonl forma
 
 If you do not want to make any additional preprocessing steps, you can run our code directly with our processed datasets.
 
+Note that, in the 'datasets' folder, the folder 'data_multicite' refers to the full MultiCite dataset while the folder 'data_multicite_only_multi_intent' indicates the subset of MultiCite dataset which only contains the samples with more than one intent label in the gold label.
+
 # Training 
 
 First, we set up a single-GPU environment for each run by executing: export CUDA_VISIBLE_DEVICES=0 
