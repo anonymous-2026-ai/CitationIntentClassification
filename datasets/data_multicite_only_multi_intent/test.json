@@ -1,0 +1,2172 @@
+[
+    {
+        "id": "008d5261ee7385a2b7e39772938f51_3",
+        "x": "Although these results are not better than the context-less baseline, the reason might be data sparsity since existing work on citation sentiment analysis uses more data <cite>(Athar, 2011)</cite> .",
+        "y": "extends background"
+    },
+    {
+        "id": "013f0e54384a8a4662a746eb4c30d9_7",
+        "x": "The default setup of <cite>Akbik et al. (2018)</cite> recommends contextual string embeddings to be used in combination with standard word embeddings. We use GLOVE embeddings (Pennington et al., 2014) for the English tasks and FASTTEXT embeddings (Bojanowski et al., 2017) for all newswire tasks.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "0143619c1c54129702aafb585463d2_2",
+        "x": "In addition to<cite> [4]</cite> , we also implement several other strong baselines to better evaluate the e ectiveness of our model: 1) BM25; 2) VSM: Vector Space Model that was used in<cite> [4]</cite> ; 3) DESM: Dual Embedding Space Model which is a recent embedding based retrieval model [12] ; and <cite>4</cite>) LMD-LDA: Language modeling with LDA smoothing which is a recent extension of the LMD to also account for the latent topics [10] .",
+        "y": "extends differences"
+    },
+    {
+        "id": "04461d946dadc759e4be1207655159_4",
+        "x": "This is the same as the hierarchical rules defined in Chiang's HPB model<cite> (Chiang, 2007)</cite> , except that we use head POSinformed non-terminal symbols in the source language.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "04461d946dadc759e4be1207655159_6",
+        "x": "To alleviate these problems, we filter our HD-HRs according to the same constraints as described in<cite> Chiang (2007)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_2",
+        "x": "In this paper, we explicitly encode lexical semantics, both corpus-based and knowledge-based information, in the <cite>WTMF</cite> model, by which we are able to achieve even better results in SS task.",
+        "y": "motivation uses"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_7",
+        "x": "Similar words pairs can be seamlessly modeled in <cite>WTMF</cite>, since in the matrix factorization framework a latent vector profile is explicitly created for each word, while in LDA all the data structures are designed for documents/sentences. We construct a graph to connect words according to the extracted similar word pairs, to encourage similar words to share similar latent vector profiles.",
+        "y": "uses motivation"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_16",
+        "x": "We include three baselines LSA, LDA and <cite>WTMF</cite> using the setting described in (<cite>Guo and Diab, 2012b</cite>) . Table 1 shows <cite>WTMF</cite> is already a very strong baseline: it outperforms LSA and LDA by a large margin.",
+        "y": "uses background"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_17",
+        "x": "Table 1 shows <cite>WTMF</cite> is already a very strong baseline: it outperforms LSA and LDA by a large margin.",
+        "y": "uses differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_19",
+        "x": "Using corpus-based selectional preference semantics alone (model 4 WTMF+P in Table  1 ) boosts the performance of <cite>WTMF</cite> by +1.17% on the test set, while using knowledge-based semantics alone (model 5 WTMF+K) improves the over the <cite>WTMF</cite> results by an absolute +2.31%.",
+        "y": "extends differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_20",
+        "x": "Figure 3c illustrates the impact of dimension K = {50, 75, 100, 125, 150} on <cite>WTMF</cite> and WTMF+PK.",
+        "y": "uses differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_22",
+        "x": "With lexical semantics explicitly modeled, WTMF+PK yields better results than <cite>WTMF</cite> (see Table 1 ).",
+        "y": "background differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_24",
+        "x": "It should be noted that LI06 prefers a smaller similar word pair weight ( a \u03b4 = 0.1 yields the best performance around of 90.75%), yet in almost all conditions WTMF+PK outperforms <cite>WTMF</cite> as shown in Figure 3d .",
+        "y": "background differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_27",
+        "x": "In (<cite>Guo and Diab, 2012b</cite>; Guo and Diab, 2012c) , we show the superiority of the latent space approach in <cite>WTMF</cite>. In this paper, we improve the <cite>WTMF</cite> model and achieve state-of-the-art Pearson correlation on two standard SS datasets.",
+        "y": "extends differences"
+    },
+    {
+        "id": "048944feaff977c8cf057d52594c72_28",
+        "x": "In this paper, we improve the <cite>WTMF</cite> model and achieve state-of-the-art Pearson correlation on two standard SS datasets.",
+        "y": "extends differences"
+    },
+    {
+        "id": "053ce92029e643bfade157b3172c05_1",
+        "x": "Following<cite> (Evans et al., 1995)</cite> and (Smets & Evans, 1998 ) the LEXSYS grammar is encoded using DATR, a non-monotonic knowledge representation language.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "062e9348de5fda68e61fff3ca4f186_0",
+        "x": "The third type of projection, P Acc , integrates syntactic information in the edge weights calculated by the following formula: While the entity grid <cite>(Barzilay and Lapata, 2008)</cite> uses information about sentences which do not share entities by means of the \"--\" transition, the entity graph cannot employ this negative information. Here, we propose a normalization for the entity graph and its corresponding one-mode projections which is based on the relative importance of entities and, in turn, the relative importance of sentences.",
+        "y": "motivation background"
+    },
+    {
+        "id": "062e9348de5fda68e61fff3ca4f186_4",
+        "x": "In experiments,<cite> Barzilay and Lapata (2008)</cite> assume that articles taken from Encyclopedia Britannica are more difficult to read (less coherent) than the corresponding articles from Encyclopedia Britannica Elementary, its version for children. We follow them with regard to data (107 article pairs), experimental setup and evaluation. Sentences in the Britannica Elementary are simpler and shorter than in the Encyclopedia Britannica. The entity graph does not take into account the effect of entities not shared between sentences while the normalized entity graph assigns a lower weight if there are more of these entities. Hence, Britannica Elementary receives a higher cohesion score than Encyclopedia Britannica in our model.",
+        "y": "motivation uses background"
+    },
+    {
+        "id": "0732eaa37366d7ae092f4de0ed72cb_4",
+        "x": "As described in<cite> Vinyals et al. (2015)</cite> , not all the outputs (predicted linearized parse trees) obtained from the Seq2seq parser are valid (well-formed) as a parse tree.",
+        "y": "background motivation"
+    },
+    {
+        "id": "087a2a35ad2428d6b17c6906447349_1",
+        "x": "Previous work on bridging anaphora resolution (Poesio et al., 2004;<cite> Hou et al., 2013b)</cite> use syntactic preposition patterns to calculate word relatedness. However, such patterns only consider NPs' head nouns and hence do not fully capture the semantics of NPs.",
+        "y": "motivation background"
+    },
+    {
+        "id": "087a2a35ad2428d6b17c6906447349_21",
+        "x": "For bridging anaphora resolution, Hou (2018) integrates a much simpler deterministic approach by combining an NP head with its noun modifiers (appearing before the head) based on embeddings PP into the MLN II system <cite>(Hou et al., 2013b)</cite> . Similarly, we add a constraint on top of MLN II using our deterministic approach (NP head + modifiers) based on embeddings bridging.",
+        "y": "uses background"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_4",
+        "x": "Most knowledge embedding models thereafter including this paper are variants of this model (Wang et al., 2014b; <cite>Wang et al., 2014a</cite>; Lin et al., 2015) .",
+        "y": "uses background"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_7",
+        "x": "Our focus is on a new alignment model L A while the knowledge model L K and text model L T are the same as the counterparts in <cite>(Wang et al., 2014a)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_12",
+        "x": "Following the settings in <cite>(Wang et al., 2014a)</cite> , we apply the same preprocessing steps, including sentence segmentation, tokenization, and named entity recognition.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_13",
+        "x": "Triplet Classification This is a binary classification task, predicting whether a candidate triplet (h, r, t) is a correct fact or not. It is used in (Socher et al., 2013; Wang et al., 2014b; <cite>Wang et al., 2014a)</cite> . We follow the same protocol in <cite>(Wang et al., 2014a)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_14",
+        "x": "We follow the same protocol in <cite>(Wang et al., 2014a)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_15",
+        "x": "<cite>Wang et al. (2014a)</cite> confirm this observation and show that jointly embedding brings further encouraging improvement over TransE. In this experiment, we follow the same settings as <cite>(Wang et al., 2014a)</cite> to investigate the performance of our new alignment model.",
+        "y": "uses motivation"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_16",
+        "x": "We use the same public dataset NYT+FB, released by Riedel et al. (2010) and used in and <cite>(Wang et al., 2014a)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_17",
+        "x": "Since both Mintz and MIML are probabilistic models, we use the same method in <cite>(Wang et al., 2014a)</cite> to linearly combine the scores.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "08c64c92b77dbd9e999092a2fec3d1_18",
+        "x": "We use the original dataset released by (Mikolov et al., 2013b) and follow the same evaluation protocol of <cite>(Wang et al., 2014a)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "0984f12a6fea858c7f18263cc2fb01_3",
+        "x": "The Flickr30K Dataset contains 31,014 images sourced from online photo-sharing websites <cite>(Young et al., 2014)</cite> . The Multi30K dataset extends the Flickr30K dataset with translated and independent German sentences.",
+        "y": "extends background"
+    },
+    {
+        "id": "0a7710557d020087035f4a94b5661c_1",
+        "x": [
+            "Due to the usage of automatic source parses, automatic word alignments and differences in the annotation schemes of source and target languages, the projected parses are not always fully connected and can have edges missing (Hwa et al., 2005; Ganchev et al., 2009 )."
+        ],
+        "y": "background motivation"
+    },
+    {
+        "id": "0a7710557d020087035f4a94b5661c_2",
+        "x": [
+            "Projectivity can be relaxed in some parsers (McDonald et al., 2005; Nivre, 2009) . But these parsers can not directly be used to learn from partially connected parses (Hwa et al., 2005; Ganchev et al., 2009 )."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "0a7710557d020087035f4a94b5661c_4",
+        "x": [
+            "Ganchev et al. (2009) handle partial projected parses by avoiding committing to entire projected tree during training. The posterior regularization based framework constrains the projected syntactic relations to hold approximately and only in expectation."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "0a7710557d020087035f4a94b5661c_5",
+        "x": "While Hwa et al. (2005) requires full projected parses to train their parser,<cite> Ganchev et al. (2009)</cite> and Jiang and Liu (2010) can learn from partially projected trees. However, the discriminative training in<cite> (Ganchev et al., 2009</cite> ) doesn't allow for richer syntactic context and it doesn't learn from all the relations in the partial dependency parse.",
+        "y": "motivation background"
+    },
+    {
+        "id": "0a7710557d020087035f4a94b5661c_9",
+        "x": "For Bulgarian and Spanish, we used the same test data that was used in the work of<cite> Ganchev et al. (2009)</cite> . These test datasets had sentences from the training section of the CoNLL Shared Task (Nivre et al., 2007) that had lengths less than or equal to 10. All the test datasets have gold POS tags. A baseline parser was built to compare learning from partial parses with learning from fully connected parses.",
+        "y": "uses background"
+    },
+    {
+        "id": "0c8a99cac11953f26308128bfc058b_15",
+        "x": "We repeat the experiments about CM in <cite>Zhang\"s paper</cite> <cite>(Zhang et al., 2006a)</cite> and show that there is a representation flaw in the CM formula.",
+        "y": "motivation uses"
+    },
+    {
+        "id": "0c8a99cac11953f26308128bfc058b_21",
+        "x": "Table 6 Results of different approach used in our experiments (White background lines are the results we repeat <cite>Zhang\"s methods</cite> and they have some trivial difference with Table 1. ) Therefore, the most important thing worth to pay attention in future study is how to integrate linguistic information into the statistical model effectively, no matter character or word information.",
+        "y": "uses differences"
+    },
+    {
+        "id": "0e4deda746127b97f68080bc8f13c8_2",
+        "x": "Our proposed framework ( Figure 1a ) is built around self-attention layers, as used in the Transformer encoder<cite> [22]</cite> , previous explorations of self-attention in ASR [19, 27] , and defined in Section 2.3.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "0e4deda746127b97f68080bc8f13c8_3",
+        "x": "Maximum path length Table 1 : Operation complexity of each layer type, based on<cite> [22]</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "0e4deda746127b97f68080bc8f13c8_7",
+        "x": "As self-attention architectures can be unstable in early training, we clip gradients to a global norm of 1 and use the standard linear warmup period before inverse square decay associated with these architectures [19, <cite>22]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "10319b67b6fcc1870791cf67b39299_5",
+        "x": "As for assumption (ii), previous work (Xing et al., 2015;<cite> Artetxe et al., 2017)</cite> has achieved some success using an orthogonal transformation; recently, however, demonstrated that monolingual embedding spaces are not approximately isomorphic and that there is a complex relationship between word form and meaning, which is only inadequately modeled by current approaches, which for example cannot model polysemy. Nevertheless, we will show that imbuing our model with these assumptions helps empirically in \u00a76, giving them practical utility.",
+        "y": "uses background"
+    },
+    {
+        "id": "10319b67b6fcc1870791cf67b39299_6",
+        "x": "We additionally enforce the constraint that \u2126 is a real orthogonal matrix, i.e., \u2126 \u2126 = I. Previous work (Xing et al., 2015;<cite> Artetxe et al., 2017)</cite> found that the orthogonality constraint leads to noticeable improvements.",
+        "y": "uses background"
+    },
+    {
+        "id": "10319b67b6fcc1870791cf67b39299_11",
+        "x": "Why a Reinterpretation? The reinterpretation of<cite> Artetxe et al. (2017)</cite> as a probabilistic model yields a clear analytical comparison between our method and theirs. The only difference between the two is the constraint on the bilingual lexicon that the model is allowed to induce.",
+        "y": "extends differences"
+    },
+    {
+        "id": "1042e7b6ef7b73f29ad75b193f9e3b_11",
+        "x": "Most successful work on low-resource POS tagging is based on projection (Yarowsky et al., 2001) , tag dictionaries<cite> (Li et al., 2012)</cite> , annotation of seed training data or even more recently some combination of these, e.g., via multi-task learning (Fang and not <cite>Li et al. (2012)</cite> Figure 4: The performance of LI with our dictionary data over EM iterations, separate for the languages from <cite>Li et al. (2012)</cite> and all the remaining languages in Table 1 . Cohn, 2016; Kann et al., 2018) . Our paper contributes to this literature by leveraging a range of prior directions in a unified, neural test bed.",
+        "y": "extends differences"
+    },
+    {
+        "id": "1265a336e56a4535f0a904ca89b220_0",
+        "x": "The Google Books Ngram corpus (GBN; Michel et al. (2011 ), Lin et al. (2012 ) is used in most of the studies we already mentioned, including our current study and its predecessor <cite>(Hellrich and Hahn, 2016a)</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "1265a336e56a4535f0a904ca89b220_3",
+        "x": "We nevertheless discourage using samples instead of full corpora, as we observed extremely low reliability values between different samples <cite>(Hellrich and Hahn, 2016a)</cite> .",
+        "y": "motivation background"
+    },
+    {
+        "id": "14fa8c3b947667244d30dd30dae89a_12",
+        "x": "Our logistic regression linear parser and re-implementation of <cite>Chen and Manning (2014)</cite> give comparable accuracies to the perceptron ZPar 2 and Stanford NN Parser 3 , respectively.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "1781b27c13dca15752cb6aa8a9fc38_0",
+        "x": "This tutorial addresses the fundamentals of statistical models and neural networks, and focus on a series of advanced Bayesian models and deep models including hierarchical Dirichlet process , Chinese restaurant process (Blei et al., 2010) , hierarchical Pitman-Yor process (Teh, 2006) , Indian buffet process (Ghahramani and Griffiths, 2005) , recurrent neural network (Mikolov et al., 2010; Van Den Oord et al., 2016) , long short-term memory (Hochreiter and Schmidhuber, 1997; , sequence-to-sequence model (Sutskever et al., 2014), variational auto-encoder (Kingma and Welling, 2014) , generative adversarial network (Goodfellow et al., 2014) , attention mechanism (Chorowski et al., 2015; Seo et al., 2016) , memory-augmented neural network (Graves et al., 2014; Graves et al., 2014) , stochastic neural network <cite>Miao et al., 2016)</cite> , predictive state neural network (Downey et al., 2017) , policy gradient (Yu et al., 2017) and reinforcement learning (Mnih et al., 2015) .",
+        "y": "uses background"
+    },
+    {
+        "id": "183cf87042a3ad2180ead67555d247_6",
+        "x": "During pre-training, Label-aware masked language model (LA-MLM) and next sentence prediction (NSP) are adopted as the pre-training tasks where the setting of NSP is identical to the one proposed by<cite> Devlin et al. (2019)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "195f41862b929318787aad9d8e5a1c_0",
+        "x": "In this technical report, we introduce FastFusionNet, an efficient variant of FusionNet <cite>[12]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "195f41862b929318787aad9d8e5a1c_1",
+        "x": "In this technical report, we analyze the inference bottlenecks of FusionNet <cite>[12]</cite> and introduce FastFusionNet that tackles them.",
+        "y": "extends differences"
+    },
+    {
+        "id": "195f41862b929318787aad9d8e5a1c_4",
+        "x": "Here we introduce FastFusionNet which addresses the inference bottlenecks of FusionNet <cite>[12]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "195f41862b929318787aad9d8e5a1c_5",
+        "x": "We closely follow the implementation of Huang et al. <cite>[12]</cite> described in their paper except for the changes above.",
+        "y": "extends differences"
+    },
+    {
+        "id": "195f41862b929318787aad9d8e5a1c_6",
+        "x": "Following Huang et al. <cite>[12]</cite> , the hidden size of each SRU is set to 125, resulting in a 250-d output feature of each BiSRU regardless of the input size.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "196e7ca5ccd6754ac986137ec55cd3_3",
+        "x": "We developed a multimodal framework in support of building an interactive learning system, which loosely follows that of<cite> Yu et al. (2016)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "196e7ca5ccd6754ac986137ec55cd3_6",
+        "x": "Following previous work <cite>(Yu et al., 2016)</cite> , here we use a positive confidence threshold, which determines when the agent believes its own predictions. For instance, the learner can ask either polar or WH-questions about an attribute if its confidence score is higher than a certain threshold; otherwise, there should be no interaction about that attribute. But as<cite> Yu et al. (2016)</cite> point out the confidence score from a classifier is not reliable enough at the early stages of learning, so in order to find an optimum dialogue policy, a threshold should be able to dynamically adjust according to the previous learning performance of the agent. We therefore assign a separate but dependent component MDP for adjusting the threshold dynamically in order to optimise the trade-off between accuracy and cost.",
+        "y": "extends uses differences"
+    },
+    {
+        "id": "1ac16c74cc5bb4099ae07f89d7f148_0",
+        "x": "<cite>Levy et al. (2017)</cite> present a reformulation of RE, where the task is framed as reading comprehension. In this formulation, each relation type (e.g. author, occupation) is mapped to at least one natural language question template (e.g. \"Who is the author of x?\"), where x is filled with an entity (e.g. \"Inferno\"). The model is then tasked with finding an answer (\"Dante Alighieri\") to this question with respect to a given context. They show that this formulation of the problem both outperforms off-the-shelf RE systems in the typical RE setting and, in addition, enables generalization to unspecified and unseen types of relations.",
+        "y": "motivation background"
+    },
+    {
+        "id": "1ac16c74cc5bb4099ae07f89d7f148_1",
+        "x": "Open RE methods (Yates et al., 2007; Fader et al., 2011) do not require relationspecific data, but treat different phrasings of the same relation as different relations and rely on a combination of syntactic features (e.g. dependency parses) and normalisation rules, and so have limited generalization capacity. Zero-shot relation extraction <cite>Levy et al. (2017)</cite> propose a novel approach towards achieving this generalization by transforming relations into natural language question templates. For instance, the relation born in(x, y) can be expressed as \"Where was x born?\" or \"In which place was x born?\". Then, a reading comprehension model (Seo et al., 2016; Chen et al., 2017) can be trained on question, answer, and context examples where the x slot is filled with an entity and the y slot is either an answer if the answer is present in the context, or NIL. The model is then able to extract relation instances (given expressions of the relations as questions) from raw text.",
+        "y": "motivation background"
+    },
+    {
+        "id": "1ac16c74cc5bb4099ae07f89d7f148_5",
+        "x": "Following <cite>Levy et al. (2017)</cite> , we distinguish between the traditional RE setting where the aim is to generalize to unseen entities (UnENT) and the zero-shot setting (UnREL) where the aim is to do so for unseen relation types (see Section 2). Our goal is to answer these three questions: A) how well can RE models be transferred across languages? B) in the difficult UnREL setting, can the variance between languages in the number of instances of relations (see Figure 2 ) be exploited to enable more robust RE ? C) can one jointly-trained multilingual model which performs RE in multiple languages perform comparably to or outperform its individual monolingual counterparts?",
+        "y": "similarities motivation"
+    },
+    {
+        "id": "1b424cab4d7008997a31be8c2e5198_1",
+        "x": "Most notably, for the natural language inference task, augmenting the hypothesis (u) and premise (v) representations with |u\u2212v| and u \u00b7 v considerably improves performance in a siamese architecture <cite>Mou et al. (2016)</cite> . In this paper we focus on polynomial features like u \u00b7 v for the natural language inference task, where it is trying to capture similarity between u and v. It is also a monomial of degree 2.",
+        "y": "uses background"
+    },
+    {
+        "id": "1b424cab4d7008997a31be8c2e5198_2",
+        "x": "The standard matching feature of <cite>Mou et al. (2016)</cite> uses a concatenation of u, v, |u\u2212v| and u \u00b7 v. We define the following new matching feature vector that scales the multiplicative term by a constant factor \u03b7 > 0.",
+        "y": "uses background"
+    },
+    {
+        "id": "1bcd442a685e5fb2d0f3f44d3c66c3_0",
+        "x": "Several recent works<cite> (Lazaridou, Peysakhovich, and Baroni 2016</cite>; Havrylov and Titov 2017; Lazaridou et al. 2018; <cite>Mordatch and Abbeel 2018)</cite> , have shown that in multi-agent cooperative setting of referential games, deep reinforcement learning can successfully induce communication protocols.",
+        "y": "motivation background"
+    },
+    {
+        "id": "1bcd442a685e5fb2d0f3f44d3c66c3_3",
+        "x": "In our work, we have used two referential game setups that are slight modifications to the ones used in<cite> (Lazaridou, Peysakhovich, and Baroni 2016</cite>; Lazaridou et al. 2018 ).",
+        "y": "extends differences"
+    },
+    {
+        "id": "1c51e45e2917268e0ab5ce43a69655_18",
+        "x": "Our best model is on par with previous work on the <cite>Waseem and Hovy (2016)</cite> data set for the binary classification task but under-performs for the multi-class classification task.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "1f5326cacca33bfc80a9ddcb4ae313_2",
+        "x": "For example, the representation of joke semantics has been fairly basic, typically computing word embedding similarities between all word pairs in a document<cite> (Yang et al., 2015)</cite> , and bear little resemblance to the way humans actually interpret humour. This paper aims to marry the interpretability of statistical machine learning approaches with the more nuanced models of joke structure and joke semantics of neural approaches.",
+        "y": "uses background"
+    },
+    {
+        "id": "1f5326cacca33bfc80a9ddcb4ae313_10",
+        "x": "We evaluate our classifiers across two separate datasets: Pun of the Day (PotD), collected in<cite> Yang et al. (2015)</cite> , and 16000 One-Liner (OL), collected in Mihalcea and Strapparava (2005) . PotD consists of positive examples collected from the Pun of the Day website 2 and negative examples collected from a combination of news sources, question/answer forums, and lists of proverbs<cite> (Yang et al., 2015)</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "1f5326cacca33bfc80a9ddcb4ae313_14",
+        "x": "Similar to<cite> Yang et al. (2015)</cite> , we compute the minimum, maximum, and average Word2Vec similarity between ordered word pairs. Not only is this a common humour recognition feature <cite>(Yang et al., 2015</cite>; Shahaf et al., 2015; Kukova\u010dec et al., 2017) , but it also acts as a point of comparison for word association strength.",
+        "y": "background similarities"
+    },
+    {
+        "id": "1f5326cacca33bfc80a9ddcb4ae313_20",
+        "x": "As described in Section 2.2,<cite> Yang et al. (2015)</cite> 's HA extraction algorithm requires a fully trained humour model, the accuracy of which undoubtedly affects the quality of the extracted HAs. For this reason we also experimented with training our anchor candidate scorer using the test data, to maximize its performance.",
+        "y": "background similarities"
+    },
+    {
+        "id": "1fd85a350d9ec7ac12151cfe4412e4_2",
+        "x": "We evaluate our model on the Alex Context natural language generation (NLG) dataset of <cite>Du\u0161ek and Jurcicek (2016a)</cite> and demonstrate that our model outperforms the RNNbased model of <cite>Du\u0161ek and Jurcicek (2016a)</cite> (TGen model) in automatic metrics.",
+        "y": "uses differences"
+    },
+    {
+        "id": "1fd85a350d9ec7ac12151cfe4412e4_5",
+        "x": "This reranker is based on n-gram precision scores and promotes responses having phrase overlaps with user utterances<cite> (Du\u0161ek and Jurcicek, 2016a</cite> ).",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_3",
+        "x": "We note that this operation is orderagnostic to the permutation in the input se-quence (order is encoded with extra positional embedding (Vaswani et al., 2017; Shaw et al., 2018;<cite> Dai et al., 2019)</cite> ). The above observation inspires us to connect Transformer's attention to kernel learning (Scholkopf and Smola, 2001) : they both concurrently and order-agnostically process all inputs by calculating the similarity between the inputs.",
+        "y": "motivation background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_12",
+        "x": "(i) Absolute Positional Embedding (Vaswani et al., 2017; <cite>Dai et al., 2019</cite>; Ott et al., 2019) : For the original Transformer (Vaswani et al., 2017) , each t i is represented by a vector with each dimension being sine or cosine functions.",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_13",
+        "x": "For learned positional embedding<cite> (Dai et al., 2019</cite>; Ott et al., 2019) , each t i is a learned parameter and is fixed for the same position for different sequences.",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_14",
+        "x": "(ii) Relative Positional Embedding in Transformer-XL<cite> (Dai et al., 2019)</cite> : t represents the indicator of the position in the sequence, and the kernel is chosen to be asymmetric of mixing sine and cosine functions:",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_17",
+        "x": "(iv) Decoder Self-Attention in Transformer-XL<cite> (Dai et al., 2019)</cite> : For each query x q in the decoded sequence, M (x q , S x k ) returns a set containing S 1 and additional memories (M (x q , S x k ) = S 1 + S mem , M (x q , S x k ) \u2283 S 1 ).",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_20",
+        "x": "In our experiment, we find it reaching competitive performance as comparing to the current state-of-the-art designs (Eq. (5) by<cite> Dai et al. (2019)</cite> ).",
+        "y": "uses similarities"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_21",
+        "x": "We conduct experiments on neural machine translation (NMT) and sequence prediction (SP) tasks since these two tasks are commonly chosen for studying Transformers (Vaswani et al., 2017;<cite> Dai et al., 2019)</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_25",
+        "x": "Second, we see that PE in the product kernel proposed by<cite> Dai et al. (Dai et al., 2019)</cite> may not constantly outperform the other integration types (it has lower BLEU score for NMT).",
+        "y": "uses differences"
+    },
+    {
+        "id": "20330d309c218dc2e1521b9644ed9c_28",
+        "x": "The need of the positional embedding (PE) in the attention mechanism is based on the argument that the attention mechanism is an order-agnostic (or, permutation equivariant) operation (Vaswani et al., 2017; Shaw et al., 2018; Huang et al., 2018b; <cite>Dai et al., 2019</cite>; Child et al., 2019) . However, we show that, for decoder self-attention, the operation is not order-agnostic.",
+        "y": "differences background"
+    },
+    {
+        "id": "206b65ee4e69a01e8a0892dc0f2b30_2",
+        "x": "Although this idea is interesting, it suffers from two major limitations: + It does not incorporate word cluster information at different levels of granularity. In fact,<cite> Plank and Moschitti (2013)</cite> only use the 10-bit cluster prefix in their study.",
+        "y": "motivation background"
+    },
+    {
+        "id": "206b65ee4e69a01e8a0892dc0f2b30_5",
+        "x": "Unfortunately, this feature set includes the human-annotated (gold-standard) information on entity and mention types which is often missing or noisy in reality<cite> (Plank and Moschitti, 2013)</cite> . Therefore, following the settings of<cite> Plank and Moschitti (2013)</cite> , we will only assume entity boundaries and not rely on the gold standard information in the experiments.",
+        "y": "uses motivation"
+    },
+    {
+        "id": "237ac6f9b635e56119be956d7521e1_5",
+        "x": "We used an almost identical setting to<cite> Rei et al. (2016)</cite> : words are lowercased, but characters are not, digits are replaced with zeros, singleton words in the training set are converted into unknown tokens, word and character embedding sizes are 300 and 50 respectively.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "2407cfa8572ccbab7f9a081f45a4ad_4",
+        "x": "Ours is thus a 3-factor economic model (crosslinking, annotation and accuracy) as opposed to the 2-factor model (cross-linking, accuracy) proposed by<cite> Khapra et al. (2009)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "2407cfa8572ccbab7f9a081f45a4ad_6",
+        "x": "We used the same dataset as described in<cite> Khapra et al. (2009)</cite> for all our experiments.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "28eeecadd8d3348de6daec3c801ae4_12",
+        "x": "We reuse the instructions provided by (<cite>Prabhumoye et al., 2018</cite>) for the three tasks. But unlike (<cite>Prabhumoye et al., 2018</cite>), we perform our evaluation on Amazon Mechanical Turk.",
+        "y": "uses differences"
+    },
+    {
+        "id": "2915e49791d14f5b802225d10f33fb_1",
+        "x": "Documents are initially pre-processed as follows: (i) Negation handling is performed as<cite> Pang et al. (2002)</cite> , \"NOT_\" is added to every words occurring after the negation word (no, not, isn't, can't, never, couldn't, didn't, wouldn't, don't) and first punctuation mark in the sentence.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "2915e49791d14f5b802225d10f33fb_2",
+        "x": "Binary weighting scheme has been identified as a better weighting scheme as compared to frequency based schemes for sentiment classification<cite> (Pang et al. 2002)</cite> ; therefore we also used binary weighting method for representing text.",
+        "y": "background motivation"
+    },
+    {
+        "id": "2adb3a645a57b8f441a80bb5a46045_2",
+        "x": "Following the principle of the guidelines by<cite> Mohammad et al. (2017)</cite> , we classified the posts as taking a stance against or for vaccination, or to be undecided.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "2adb3a645a57b8f441a80bb5a46045_3",
+        "x": "This follows the approach of<cite> Mohammad et al. (2017)</cite> , as well as of many of the previously performed vaccine sentiment studies.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "2adb3a645a57b8f441a80bb5a46045_5",
+        "x": "The choice of machine learning model was primarily based on that a linear support vector machine was successful on data from the previously mentioned shared task of stance detection of tweets <cite>(Mohammad et al., 2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "2b25e38db7fd20c92d677b73af110c_6",
+        "x": "The Transformer is a machine translation model introduced in <cite>[2]</cite> that achieved state-of-the-art results by combining feedforward neural networks with a multiplicative attention mechanism applied over position-encoded embedding vectors.",
+        "y": "uses background"
+    },
+    {
+        "id": "2b25e38db7fd20c92d677b73af110c_19",
+        "x": "As suggested in <cite>[2]</cite> , we have chosen the Adam optimizer [41] with the same hyperparameters, except for the learning rate, which was divided by two in our implementation.",
+        "y": "uses differences"
+    },
+    {
+        "id": "2b5d8cab263c9edbe005674910a7b1_6",
+        "x": "Similar to<cite> Zhang et al. (2016b)</cite> and Cai and Zhao (2016) , we use word context on top of character context. However, words play a relatively less important role in our model, and we find that word LSTM, which has been used by all previous neural segmentation work, is unnecessary for our model.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "2b5d8cab263c9edbe005674910a7b1_13",
+        "x": "Zhang et al. (2016b) Both our model and<cite> Zhang et al. (2016b)</cite> use global learning and beam search, but our network is different.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "2b7ba7f7aa2a03ad0de84e007c1f64_1",
+        "x": "Researchers<cite> (He et al., 2018)</cite> recently studied natural language negotiations in buyer-seller bargaining setup, which is comparatively less restricted than previously studied game environments (Asher et al., 2016; Lewis et al., 2017) . Lack of a well-defined structure in such negotiations allows humans or agents to express themselves more freely, which better emulates a realistic scenario. Interestingly, this also provides an exciting research opportunity: how can an agent leverage the behavioral cues in natural language to direct its negotiation strategies? Understanding the impact of natural language on negotiation outcomes through a data-driven neural framework is the primary objective of this work.",
+        "y": "motivation background"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_0",
+        "x": "This task is a rather easier task which prepare a pair of complex and simple representations than a challenging task which changes the substitute pair in a given context (Specia et al., 2012; <cite>Kajiwara and Yamamoto, 2015</cite>) .",
+        "y": "uses differences"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_2",
+        "x": "However, there are four drawbacks in the dataset of <cite>Kajiwara and Yamamoto (2015)</cite> : (1) <cite>they</cite> extracted sentences only from a newswire corpus; (2) <cite>they</cite> substituted only a single target word; (3) <cite>they</cite> did not allow ties; and (4) <cite>they</cite> did not integrate simplification ranking considering the quality.",
+        "y": "background motivation"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_4",
+        "x": "However, there are four drawbacks in the dataset of <cite>Kajiwara and Yamamoto (2015)</cite> : (1) <cite>they</cite> extracted sentences only from a newswire corpus; (2) <cite>they</cite> substituted only a single target word; (3) <cite>they</cite> did not allow ties; and (4) <cite>they</cite> did not integrate simplification ranking considering the quality. Hence, we propose a new dataset addressing the problems in <cite>the dataset</cite> of <cite>Kajiwara and Yamamoto (2015)</cite> .",
+        "y": "extends motivation"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_12",
+        "x": "Because <cite>Kajiwara and Yamamoto (2015)</cite> extracted sentences from a newswire corpus, <cite>their</cite> dataset has a poor variety of expression.",
+        "y": "background motivation"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_15",
+        "x": "It follows the data creation procedure of <cite>Kajiwara and Yamamoto's (2015)</cite> dataset with improvements to resolve the problems described in Section 3.",
+        "y": "extends uses"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_23",
+        "x": "The Pearson coefficient shows that our dataset correlates with human annotation better than the dataset of <cite>Kajiwara and Yamamoto (2015)</cite> , possibly because we controlled each sentence to include only one complex word.",
+        "y": "extends differences"
+    },
+    {
+        "id": "2d3ec2e77947cb23af773926ec917b_26",
+        "x": "Finally, to compare two datasets, we used the Pearson product-moment correlation coefficient between our dataset and the dataset of <cite>Kajiwara and Yamamoto (2015)</cite> against the annotated data. The Pearson coefficient shows that our dataset correlates with human annotation better than the dataset of <cite>Kajiwara and Yamamoto (2015)</cite> , possibly because we controlled each sentence to include only one complex word.",
+        "y": "extends differences"
+    },
+    {
+        "id": "2e636754342e9bb857068922519dbc_2",
+        "x": "The idea behind this model is to pre-train a bidirectional representation by jointly conditioning on both left and right contexts in all layers using a transformer (Vaswani et al., 2017;<cite> Devlin et al., 2018)</cite> .",
+        "y": "motivation background"
+    },
+    {
+        "id": "307c18e2928c4a45f574a9c3a36b76_0",
+        "x": "Social power structures are ubiquitous in human interactions, and since power is often reflected through language, computational research at the intersection of language and power has gained interest recently. This research has been applied to a wide array of domains such as Wikipedia talk pages (Strzalkowski et al., 2010; Taylor et al., 2012; Danescu-Niculescu-Mizil et al., 2012; Swayamdipta and Rambow, 2012) , blogs (Rosenthal, 2014) as well as workplace interactions <cite>(Bramsen et al., 2011</cite>; Gilbert, 2012; Prabhakaran, 2015) . The corporate environment is one social context in which power dynamics have a clearly defined structure and shape the interactions between individuals, making it an interesting case study on how language and power interact.",
+        "y": "motivation background"
+    },
+    {
+        "id": "307c18e2928c4a45f574a9c3a36b76_3",
+        "x": "Grouped: Here, we group all emails A sent to B across all threads in the corpus, and vice versa, and use these sets of emails to predict the power relation between A and B. This formulation is similar those in <cite>(Bramsen et al., 2011</cite>; Gilbert, 2012) , but our results are not directly comparable since, unlike them, we rely on the ground truth of power relations from (Agarwal et al., 2012) ; however, we created an SVM model that uses word-ngram features similar to theirs as a baseline to our proposed neural architectures.",
+        "y": "extends similarities differences"
+    },
+    {
+        "id": "307c18e2928c4a45f574a9c3a36b76_4",
+        "x": "We use support vector machine (SVM) based approaches as our baseline, since they are the state-of-the art in this problem (Prabhakaran and Rambow, 2014;<cite> Bramsen et al., 2011</cite>; Gilbert, 2012) .",
+        "y": "uses background"
+    },
+    {
+        "id": "307c18e2928c4a45f574a9c3a36b76_5",
+        "x": "We use the performance reported by (Prabhakaran and Rambow, 2014) using SVM as baseline for the Per-Thread formulation (using the same train-dev-test splits) and implemented an SVM baseline for the Grouped formulation (not directly comparable to performance reported by <cite>(Bramsen et al., 2011</cite>; Gilbert, 2012) ).",
+        "y": "extends differences"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_1",
+        "x": "This paper replicates<cite> Brent's (1999a)</cite> mutualinformation model on a corpus of childdirected speech in Modern Greek, and introduces a variant model using a global threshold. Brent's finding regarding the superiority of MI is confirmed; the relative performance of local comparisons and global thresholds depends on the evaluation metric.",
+        "y": "differences background similarities"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_5",
+        "x": "Another question which Saffran et al. (1996) leave unanswered is whether the segmentation depends on local or global comparisons of predictability. Saffran et al. assume implicitly, and<cite> Brent (1999a)</cite> explicitly, that the proper comparison is local-in Brent, dependent solely on the adjacent pairs of segments. However, predictability measures for segmental bigrams (whether TP or MI) may be compared in any number of ways. One straightforward alternative to the local comparison is to compare the predictability measures compare to some global threshold.",
+        "y": "motivation background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_6",
+        "x": "The global comparison, taken on its own, seems a rather simplistic and inflexible heuristic: for any pair of phonemes xy, either a word boundary is always hypothesized between x and y, or it never is. Clearly, there are many cases where x and y sometimes straddle a word boundary and sometimes do not. The heuristic also takes no account of lengths of possible words. However, the local comparison may take length into account too much, disallowing words of certain lengths. In order to see that, we must examine<cite> Brent's (1999a)</cite> suggested implementation of Saffran et al. (1996) more closely.",
+        "y": "motivation background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_7",
+        "x": "In the local comparison, given some string \u2026wxyz\u2026, in order for a word boundary to be inserted between x and y, the predictability measure for xy must be lower than both that of wx and of yz. It follows that neither wx nor yz can have word boundaries between them, since they cannot simultaneously have a lower predictability measure than xy. This means that, within an utterance, word boundaries must have at least two segments between them, so this heuristic will not correctly segment utterance-internal one-phoneme words. 3 Granted, only a few one-phoneme word types exist in either English or Greek (or other languages). However, these words are often function words and so are less likely to appear at edges of utterances (e.g., ends of utterances for articles and prepositions; beginnings for postposed elements). Neither<cite> Brent's (1999a)</cite> implementation of Saffran's et al. (1996) heuristic nor utterance-boundary heuristic can explain how these might be learned.",
+        "y": "motivation background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_9",
+        "x": [
+            "Longer words cannot be memorized in this representation (although common ends of words such as prefixes and suffixes might be). In order to test for this, Brent proposes that precision for word types (which he calls \"lexicon precision\") be measured as well as for word tokens. While the word-token metric emphasizes the correct segmentation of frequent words, the word-type metric does not share this bias. Brent defines this metric as follows: \"After each block [of 500 utterances], each word type that the algorithm produced was labeled a true positive if that word type had occurred anywhere in the portion of the corpus processed so far; otherwise it is labeled a false positive. \" Measured this way, MI yields a word type precision of only about 27%; transitional probability yields a precision of approximately 24% for the first 1000 utterances, compared to 42% for MBDP-1. He does not measure word type recall. This same limitation in finding longer, less frequent types may apply to comparisons against a global threshold as well. This is also in need of testing. It seems that both global and local comparisons, used on their own as sole or decisive heuristics, may have serious limitations. It is not clear a priori which limitation is most serious; hence both comparisons are tested here."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_10",
+        "x": "While in its general approach the study reported here replicates the mutual-information and transitional-probability models in<cite> Brent (1999a)</cite> , it differs slightly in the details of their use. First, whereas Brent dynamically updated his measures over a single corpus, and thus blurred the line between training and testing data, our model precompiles statistics for each distinct bigram-type offline, over a separate training corpus.",
+        "y": "differences background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_12",
+        "x": "Like <cite>(Brent, 1999a)</cite> , but unlike Saffran et al. (1996) , our model focuses on pairs of segments, not on pairs of syllables. While Modern Greek syllabic structure is not as complicated as English's, it is still more complicated than the CV structure assumed in Saffran et al. (1996) ; hence, access to syllabification cannot be assumed.",
+        "y": "background similarities"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_13",
+        "x": "Since the finite-state framework selects the best path over the whole utterance, it also allows for optimization over a sequence of decisions, rather than optimizing each local decision separately. 6 Unlike Belz (1998) , where the actual FSM structure (including classes of phonemes that could be group onto one arc) was learned, here the structure of each FSM is determined in advance. Only the weight on each arc is derived from data. No attempt is made to combine phonemes to produce more minimal FSMs; each phoneme (and phoneme-pair) is modeled separately. Like<cite> Brent (1999a)</cite> and indeed most models in the literature, this model assumes (for sake of convenience and simplicity) that the child hears each segment produced within an utterance without error. This assumption translates into the finitestate domain as a simple acceptor (or equivalently, an identity transducer) over the segment sequence for a given utterance.",
+        "y": "motivation uses background"
+    },
+    {
+        "id": "310272015a781b05c42015c0559b18_15",
+        "x": "The last metric (word type) is slightly more conservative than<cite> Brent's (1999a)</cite> in that the word type must have been actually spoken in the same utterance (not the same block of 500 utterances) in which it was detected to count as a match. This lessens the possibility that a mismatch that happens to be segmentally identical to an actual word (but whose semantic context may not be conducive to learning its correct meaning) is counted as a match. However, this situation is presumably rather rare.",
+        "y": "extends motivation"
+    },
+    {
+        "id": "318487ac270ca272ec11a3de6c0685_4",
+        "x": "As in prior work<cite> (Guo and Diab, 2012)</cite> , the threshold is tuned on held-out training data.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "318487ac270ca272ec11a3de6c0685_5",
+        "x": "To compare with<cite> Guo and Diab (2012)</cite> , we set the latent dimensionality to K = 100, which was the same in their paper.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "365171603fb13c6534ef4abab092d6_0",
+        "x": "In this paper we propose a text-based geolocation method based on neural networks. Our contributions are as follows: (1) we achieve state-of-the-art results on benchmark Twitter geolocation datasets; (2) we show that the model is less sensitive to the specific location discretisation method; (3) we release the first broad-coverage dataset for evaluation of lexical dialectology models; (4) we incorporate our text-based model into a network-based model<cite> (Rahimi et al., 2015a)</cite> and improve the performance utilising both network and text; and (5) we use the model's embeddings for extraction of local terms and show that it outperforms two baselines.",
+        "y": "extends background"
+    },
+    {
+        "id": "365171603fb13c6534ef4abab092d6_4",
+        "x": "While the focus of this paper is text-based user geolocation, state-of-the-art results for the three datasets have been achieved with hybrid text+network-based models, where the predictions of the text-based model are fed into a mention network as \"dongle\" nodes to each user node, providing a personalised geolocation prior for each user<cite> (Rahimi et al., 2015a)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "365171603fb13c6534ef4abab092d6_5",
+        "x": "We also incorporated the MLP predictions into a network-based model based on the method of <cite>Rahimi et al. (2015a)</cite> , and improved upon their work.",
+        "y": "extends background"
+    },
+    {
+        "id": "375b9c865d9f1b559387aa01a20a78_6",
+        "x": "Most of the settings are the same as that of <cite>Bojanowski et al. (2017)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "375b9c865d9f1b559387aa01a20a78_7",
+        "x": "In order to show comparable results, we use the null vector for these OOV words following <cite>Bojanowski et al. (2017)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "3bbc588f06e326e1d75985fe253a5f_0",
+        "x": "In particular, we use methods proposed by Marie and Fujita (2018) , <cite>Artetxe et al. (2018b)</cite> , and Lample et al. (2018) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "3bbc588f06e326e1d75985fe253a5f_1",
+        "x": "This code is derived from <cite>Artetxe et al. (2018b)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "3bbc588f06e326e1d75985fe253a5f_5",
+        "x": "The implementation made by <cite>Artetxe et al. (2018b)</cite> 6 was modified to conduct the experiments.",
+        "y": "extends differences"
+    },
+    {
+        "id": "3bbc588f06e326e1d75985fe253a5f_8",
+        "x": "In this study, we apply the USMT method of <cite>Artetxe et al. (2018b)</cite> and Marie and Fujita (2018) to GEC.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "3d99ad1ba1696c8ef743f233530601_5",
+        "x": "This work focuses on the identification of rhetorical relations at the sentence level, and as is common since the work of<cite> Soricut and Marcu (2003)</cite> , fine-grained relations were grouped: 29 sentence-level rhetorical relations were found and grouped into 16 groups.",
+        "y": "uses background similarities"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_1",
+        "x": "For example <cite>Wang et al. (2007)</cite> introduced a set of rules to decide if a (DE) construction should be reordered or not before translating to English: \u2022 For DNPs (consisting of\"XP+DEG\"): -Reorder if XP is PP or LCP; -Reorder if XP is a non-pronominal NP \u2022 For CPs (typically formed by \"IP+DEC\"): -Reorder to align with the \"that+clause\" structure of English. Although this and previous reordering work has led to significant improvements, errors still remain. Indeed, <cite>Wang et al. (2007)</cite> found that the precision of their NP rules is only about 54.6% on a small human-judged set. One possible reason the (DE) construction remains unsolved is that previous work has paid insufficient attention to the many ways the (DE) construction can be translated and the rich structural cues to the translation.",
+        "y": "motivation background"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_3",
+        "x": "Similar to<cite> (Wang et al., 2007)</cite> , we only consider the majority case when the phrase with (DE) is a noun phrase modifier. The DEs in NPs have a part-of-speech tag of DEC (a complementizer or a nominalizer) or DEG (a genitive marker or an associative marker).",
+        "y": "similarities background"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_4",
+        "x": "The way we categorize the DEs is based on their behavior when translated into English. This is implicitly done in the work of <cite>Wang et al. (2007)</cite> where they use rules to decide if a certain DE and the words next to it will need to be reordered. Some NPs are translated into a hybrid of these categories, or just don't fit into one of the five categories, for instance, involving an adjectival premodifier and a relative clause.",
+        "y": "similarities background"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_9",
+        "x": "Features 1-3 are inspired by the rules in<cite> (Wang et al., 2007)</cite> , and the fourth rule is based on the observation that even though the predicative adjective VA acts as a verb, it actually corresponds to adjectives in English as described in (Xia, 2000) .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_11",
+        "x": "We have two different settings as baseline experiments. Also, we reorder the training data, the tuning and the test sets with the NP rules in<cite> (Wang et al., 2007)</cite> and compare our results with this second baseline (WANG-NP). The NP reordering preprocessing (WANG-NP) showed consistent improvement in Table 5 on all test sets, with BLEU point gains ranging from 0.15 to 0.40. This confirms that having reordering around DEs in NP helps Chinese-English MT.",
+        "y": "uses background"
+    },
+    {
+        "id": "3dbdf61d07a3e35ac1b6ecc7ab3999_12",
+        "x": "Our approach DE-Annotated reorders the Chinese sentence, which is similar to the approach proposed by <cite>Wang et al. (2007)</cite> (WANG-NP). However, our focus is on the annotation on DEs and how this can improve translation quality. Table 7 shows an example that contains a DE construction that translates into a relative clause in English.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "3e0704e0928f2df8b7c2ffa9863a55_0",
+        "x": "this setting, we apply the methodology used by <cite>Shoemark et al. (2017)</cite> in the context of the 2014 Scottish independence referendum to a dataset of tweets related to the Catalonian referendum.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "3e0704e0928f2df8b7c2ffa9863a55_3",
+        "x": "After removing retweets and tweets from users whose tweets frequently contained URLs (i.e., likely bots), our final \"Catalonian Independence Tweets\" (CT) dataset is made up of 11,670 tweets from 10,498 users (cf. the Scottish referendum set IT with 59,664 tweets and 18,589 users in <cite>Shoemark et al. (2017)</cite> ).",
+        "y": "similarities uses"
+    },
+    {
+        "id": "3e86788379f2c0074ff16687d68fc9_3",
+        "x": "Chunking in Korean texts with only simple heuristic rules obtained through observation on the text shows a good performance similar to other machine learning methods<cite> [6]</cite> . Park et al. proposed a hybrid of rule-based and machine learning method to handle exceptional cases of the rules, to improve the performance of chunking in Korean texts [5,<cite> 6]</cite> . In this paper, we present how CRFs, a recently introduced probabilistic model for labeling and segmenting sequence of data [12] , can be applied to the task of chunking in Korean texts.",
+        "y": "uses background"
+    },
+    {
+        "id": "3ec2dc9530699f55b8a4c234532daf_1",
+        "x": "Our work belongs to the retrieval-based methods, which learn a matching model for a pair of a conversational context and a response candidate. This approach has the advantage of providing informative and fluent responses because they select a proper response for the current conversation from a repository by means of response selection algorithms<cite> (Lowe et al., 2015</cite>; Lowe et al., 2017 EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EA  EB  EB  EB  EB  EB   E0  E1  E2  E3  E4  E5  E18  E19  E6  E7  E8  E9  E10  E11  E17  E12  E13  E14  E15  E16  E20  E21  E22  E23  E24  E25 [ E0  E0  E0  E0  E0  E0  E0  E0  E1  E1  E1  E1  E1  E1  E0  E1  E1  E1  E1  E1  E0  E1  E1  E1  E1  E1 Speaker Embeddings + + + + + + + + + + + + + + + + + + + + + + + + + + Figure 1 : The input representation of SA-BERT.",
+        "y": "background similarities"
+    },
+    {
+        "id": "3ec2dc9530699f55b8a4c234532daf_2",
+        "x": "We tested SA-BERT on five public multi-turn response selection datasets, Ubuntu Dialogue Corpus V1<cite> (Lowe et al., 2015)</cite> , Ubuntu Dialogue Corpus V2 (Lowe et al., 2017) , Douban Conversation Corpus (Wu et al., 2017) , E-commerce Dialogue Corpus (Zhang et al., 2018b) and DSTC 8-Track 2-Subtask 2 Corpus (Seokhwan Kim, 2019).",
+        "y": "uses background"
+    },
+    {
+        "id": "40d370558d873499e493a83f106f17_4",
+        "x": "Evaluation of the quality of distributional thesauri is a well know problem in the area<cite> (Lin, 1998</cite>; Curran and Moens, 2002) .",
+        "y": "background motivation"
+    },
+    {
+        "id": "40d370558d873499e493a83f106f17_6",
+        "x": "Evaluation of the quality of distributional thesauri is a well know problem in the area<cite> (Lin, 1998</cite>; Curran and Moens, 2002) . For instance, for intrinsic evaluation, the agreement between thesauri has been examined, looking at the average similarity of a word in the thesauri<cite> (Lin, 1998)</cite> , and at the overlap and rank agreement between the thesauri for target words like nouns (Weeds et al., 2004) .",
+        "y": "background motivation"
+    },
+    {
+        "id": "41a23b1ae47d83315a047497691117_0",
+        "x": "May et al. <cite>[21]</cite> establish a preliminary study of social bias in BERT, but their analysis relies only on sentence level encodings.",
+        "y": "motivation background"
+    },
+    {
+        "id": "41a23b1ae47d83315a047497691117_9",
+        "x": "We also prefer tests using names (e.g. Alice) as concept words over group terms (e.g. European American), since names were demonstrated to have a significant association more often than group terms <cite>[21]</cite> For intersectional identities, we are focused primarily on the identity which is the subject of discussion in the work of Crenshaw [9] : being both African American and female.",
+        "y": "uses background"
+    },
+    {
+        "id": "4588d13c734d1ca0f348e056b1d39e_0",
+        "x": "In this paper we explore generalized pooling methods to enhance sentence embedding. Specifically, by extending scalar self-attention models such as those proposed in<cite> Lin et al. (2017)</cite> , we propose vectorbased multi-head attention, which includes the widely used max pooling, mean pooling, and scalar selfattention itself as special cases. On one hand, the proposed method allows for extracting different aspects of the sentence into multiple vector representations through the multi-head mechanism. On the other, it allows the models to focus on one of many possible interpretations of the words encoded in the context vector through the vector-based attention mechanism.",
+        "y": "motivation background similarities"
+    },
+    {
+        "id": "4588d13c734d1ca0f348e056b1d39e_1",
+        "x": [
+            "Lin et al. (2017) proposed a scalar structure/multi-head self-attention method for sentence embedding. The multi-head self-attention is calculated by a MLP with only LSTM states as input. There are two main differences from our proposed method; i.e., (1) they used scalar attention instead of vectorial attention, (2) we propose different penalization terms which is suitable for vector-based multi-head self-attention, while their penalization term on attention matrix is only designed for scalar multi-head self-attention."
+        ],
+        "y": "differences background"
+    },
+    {
+        "id": "4588d13c734d1ca0f348e056b1d39e_10",
+        "x": "The green lines indicate scalar selfattention pooling added on top of the BiLSTMs, same as in<cite> Lin et al. (2017)</cite> , and the blue lines indicate vector-based attention used in our generalized pooling methods. It is obvious that the vector-based attention achieves improvement over scalar attention. Different line styles are used to indicate selfattention using different numbers of multi-head, ranging from 1, 3, 5, 7 to 9. For vector-based attention, the 9-head model achieves the best accuracy of 86.8% on the development set. For scalar attention, the 7-head model achieves the best accuracy of 86.4% on the development set.",
+        "y": "background differences"
+    },
+    {
+        "id": "4588d13c734d1ca0f348e056b1d39e_11",
+        "x": "Our future work includes exploring more effective MLP to use the structures of multi-head vectors, inspired by the idea from<cite> Lin et al. (2017)</cite> .",
+        "y": "background future_work"
+    },
+    {
+        "id": "4821d5a283c1d4ba162b58e5fac8bc_2",
+        "x": "Since the official test data of the ASAP competition is not released to the public, we, as well as others before us (<cite>Phandi et al., 2015</cite>; Dong and Zhang, 2016;  1 https://www.kaggle.com/c/asap-aes/data Tay et al., 2018) , use only the training data in our experiments.",
+        "y": "uses similarities motivation"
+    },
+    {
+        "id": "4821d5a283c1d4ba162b58e5fac8bc_3",
+        "x": "We closely followed the same settings for data preparation as (<cite>Phandi et al., 2015</cite>; Dong and Zhang, 2016) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "4821d5a283c1d4ba162b58e5fac8bc_4",
+        "x": "For the cross-domain experiments, we use the same source\u2192target domain pairs as (<cite>Phandi et al., 2015;</cite> Dong and Zhang, 2016) , namely, 1\u21922, 3\u21924, 5\u21926 and 7\u21928.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "4821d5a283c1d4ba162b58e5fac8bc_16",
+        "x": "Results are reported in terms of the quadratic weighted kappa (QWK) measure, using the same evaluation procedure as (<cite>Phandi et al., 2015</cite>; Dong and Zhang, 2016) .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "484bc7c9c66bf4028eef4103beec7f_0",
+        "x": "Our previous work focused on only the segmentation part of the voice identification task <cite>(Brooke et al., 2012)</cite> . Here, we instead assume an initial segmentation and then try to create clusters corresponding to segments of the The Waste Land which are spoken by the same voice. Of particular interest is the influence of the initial segmentation on the success of this downstream task.",
+        "y": "motivation background"
+    },
+    {
+        "id": "491879c73f8aa9f11bfae01abc795d_9",
+        "x": "We then propose an unsupervised approach to this task, that combines word embeddings with <cite>Fazly et al</cite>.'s unsupervised CFORM approach, that improves over <cite>CFORM</cite>.",
+        "y": "uses differences"
+    },
+    {
+        "id": "4a63ef4085639a66d1c7f6344f7548_0",
+        "x": "However, there are still many limitations in phrase based models. The most frequently pointed limitation is its inefficacy to modeling the structure reordering and the discontiguous corresponding. To overcome these limitations, many syntaxbased SMT models have been proposed (Wu, 1997; Chiang, 2007; Ding et al., 2005; Eisner, 2003; Quirk et al., 2005;<cite> Liu et al., 2007</cite>; Zhang et al., 2007; Zhang et al., 2008a; Zhang et al., 2008b; Gildea, 2003; Galley et al., 2004; Bod, 2007) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "4a63ef4085639a66d1c7f6344f7548_3",
+        "x": "A few researches have made some exploratory investigations towards the effects of different rules by classifying the translation rules into different subcategories<cite> (Liu et al., 2007</cite>; Zhang et al., 2008a; DeNeefe et al., 2007) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "4cb16f436d910d82c3661052c1fa30_1",
+        "x": "In contrast, globally optimized clustering decisions were reported in<cite> (Luo et al., 2004)</cite> and (DaumeIII and Marcu, 2005a) , where all clustering possibilities are considered by searching on a Bell tree representation or by using the Learning as Search Optimization (LaSO) framework (DaumeIII and Marcu, 2005b) respectively, but the first search is partial and driven by heuristics and the second one only looks back in text. We argue that a more adequate clusterization phase for coreference resolution can be obtained by using a graph representation.",
+        "y": "motivation background"
+    },
+    {
+        "id": "4cb16f436d910d82c3661052c1fa30_2",
+        "x": "BESTCUT has a different way of computing the cut weight than Min-Cut and a different way of stopping the cut 2 . Moreover, we have slightly modified the Min-Cut procedures. BESTCUT replaces the bottom-up search in a tree representation (as it was performed in<cite> (Luo et al., 2004)</cite> ) with the top-down problem of obtaining the best partitioning of a graph.",
+        "y": "extends background differences"
+    },
+    {
+        "id": "4cb16f436d910d82c3661052c1fa30_12",
+        "x": [
+            "(Luo et al., 2004) do the clusterization through a beam-search in the Bell tree using either a mention-pair or an entity-mention model, the first one performing better in their experiments. Despite the fact that the Bell tree is a complete representation of the search space, the search in it is optimized for size and time, while potentially losing optimal solutions-similarly to a Greedy search."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "4da1c39dbbeaa2c9dac22118d0c698_0",
+        "x": "It extends previous work by<cite> Barbu (2015)</cite> through incorporating recall-based machine translation and part-of-speech-tagging features.",
+        "y": "extends differences"
+    },
+    {
+        "id": "4da1c39dbbeaa2c9dac22118d0c698_1",
+        "x": "The system is based on previous work by<cite> Barbu (2015)</cite> and uses language-independent features with language-specific plug-ins, such as machine translation, part-of-speech tagging, and language classification.",
+        "y": "extends differences"
+    },
+    {
+        "id": "4da1c39dbbeaa2c9dac22118d0c698_8",
+        "x": "More importantly, however, we compared our system to <cite>Barbu's (2015)</cite> approach, using the classification algorithms which reportedly worked best with the 17 features in his work.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "4e1b01c1faebc447891bc0b847316d_3",
+        "x": "The germ of this paper came when using the automatic word intrusion methodology<cite> (Lau et al., 2014)</cite> , and noticing that introducing one extra word to a given topic can dramatically change the accuracy of intruder word prediction. This forms the kernel of this paper: to better understand the impact of the topic cardinality hyper-parameter on the evaluation of topic coherence.",
+        "y": "background motivation"
+    },
+    {
+        "id": "4edb60770ebeafc56446aeca9a3b2e_4",
+        "x": "In the following section, we first briefly describe the model proposed by <cite>Neelakantan (2015)</cite> (RNN model henceforth) followed by our extensions to it.",
+        "y": "extends background"
+    },
+    {
+        "id": "4f1a48dc79b9a099783d7e63741883_8",
+        "x": "These specialized features not only introduce domain expertise, but also capture linguistic information at an abstracted level, which can help avoid the risk of over-fitting. Given only 267 peer reviews in our case compared to more than ten thousand product reviews<cite> (Kim et al., 2006)</cite> , this is an important consideration.",
+        "y": "differences motivation"
+    },
+    {
+        "id": "537ec54aac2c3e3c62070468dcd8a3_2",
+        "x": "The phrase extraction algorithm is based on those presented by<cite> Koehn et al. (2003)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "537ec54aac2c3e3c62070468dcd8a3_3",
+        "x": "Second, phrase translation pairs are extracted from the word aligned corpus <cite>(Koehn et al., 2003)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "537ec54aac2c3e3c62070468dcd8a3_4",
+        "x": "The decoding process is very similar to those described in <cite>(Koehn et al., 2003)</cite> : It starts from an initial empty hypothesis.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "537ec54aac2c3e3c62070468dcd8a3_5",
+        "x": "Our phrase-based model uses a standard pharaoh feature functions listed as follows <cite>(Koehn et al., 2003)</cite> :",
+        "y": "similarities uses"
+    },
+    {
+        "id": "537ec54aac2c3e3c62070468dcd8a3_7",
+        "x": "For each differently tokenized corpus, we computed word alignments by a HMM translation model (Och and Ney, 2003) and by a word alignment refinement heuristic of \"grow-diagfinal\" <cite>(Koehn et al., 2003)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "53ed85f4bfa634656062ad6ba342d2_2",
+        "x": "The parser described in this paper is similar to that of<cite> Yamada and Matsumoto (2003)</cite> in that it uses a deterministic parsing algorithm in combination with a classifier induced from a treebank.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "53ed85f4bfa634656062ad6ba342d2_3",
+        "x": "The parser described in this paper is similar to that of<cite> Yamada and Matsumoto (2003)</cite> in that it uses a deterministic parsing algorithm in combination with a classifier induced from a treebank. However, there are also important differences between the two approaches. First of all, whereas Yamada and Matsumoto employs a strict bottom-up algorithm (essentially shift-reduce parsing) with multiple passes over the input, the present parser uses the algorithm proposed in Nivre (2003) , which combines bottomup and top-down processing in a single pass in order to achieve incrementality.",
+        "y": "extends differences"
+    },
+    {
+        "id": "53ed85f4bfa634656062ad6ba342d2_6",
+        "x": "We use the following metrics for evaluation: The proportion of non-root words that are assigned the correct head<cite> (Yamada and Matsumoto, 2003)</cite> . The proportion of root words that are analyzed as such<cite> (Yamada and Matsumoto, 2003)</cite> . The proportion of sentences whose unlabeled dependency structure is completely correct<cite> (Yamada and Matsumoto, 2003)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "57e65909baf823ff00a9a10a64fffd_6",
+        "x": "Classifiers trained on data from Waseem and Hovy (2016) and<cite> Waseem (2016)</cite> only predicted a small fraction of the tweets to be racism. Looking at the sexism class on the other hand, we see that both models were consistently classifying tweets in the black-aligned corpus as sexism at a substantially higher rate than those in the white-aligned corpus. Given this result, and the gender biases identified in these data by Park et al. (2018), it not apparent that the purportedly expert annotators were any less biased than amateur annotators<cite> (Waseem, 2016)</cite> .",
+        "y": "background similarities"
+    },
+    {
+        "id": "57e65909baf823ff00a9a10a64fffd_7",
+        "x": "Some studies sampled tweets using small, ad hoc sets of keywords created by the authors (Waseem and Hovy, 2016;<cite> Waseem, 2016</cite>; Golbeck et al., 2017) , an approach demonstrated to produce poor results (King et al., 2017) .",
+        "y": "uses background"
+    },
+    {
+        "id": "57e65909baf823ff00a9a10a64fffd_8",
+        "x": "The datasets considered here relied upon a range of different annotators, from the authors (Golbeck et al., 2017; Waseem and Hovy, 2016) and crowdworkers Founta et al., 2018) to activists<cite> (Waseem, 2016)</cite> . Even the classifier trained on expert-labeled data<cite> (Waseem, 2016)</cite> flags black-aligned tweets as sexist at almost twice the rate of white-aligned tweets.",
+        "y": "extends differences"
+    },
+    {
+        "id": "580713b57ae47692af0d0c86a07fd1_2",
+        "x": "On the other hand, <cite>Miwa and Bansal (2016)</cite> 's model is trained locally, without considering structural correspondences between incremental decisions. This is unlike existing statistical methods, which utilize well-studied structured prediction methods to address the problem (Li and Ji, 2014; Miwa and Sasaki, 2014) .",
+        "y": "background motivation"
+    },
+    {
+        "id": "586a0f40a9299ef2753d2b0575eff8_2",
+        "x": "We formalize the event detection problem as a multi-class classification problem. Given a sentence, for every token in that sentence, we want to predict if the current token is an event trigger: i.e, does it express some event in the pre-defined event set or not<cite> (Li et al., 2013b)</cite> ?",
+        "y": "uses background"
+    },
+    {
+        "id": "5b17eb75600820a80b3573bf74c427_13",
+        "x": "In this paper then, we have taken the same basic approach to decision detection as<cite> Fern\u00e1ndez et al. (2008)</cite> , but changed the way in which it is implemented so that it can work effectively in realtime. Our implementation changes include running the detector at regular and frequent intervals during the meeting, and reprocessing recent utterances in case a decision discussion straddles these and brand new utterances. The fact that the detector reprocesses utterances means that on consecutive runs, overlapping and duplicate hypothesized decision discussions are possible. We have therefore added facilities to merge overlapping hypotheses and to remove duplicates.",
+        "y": "differences background"
+    },
+    {
+        "id": "5cf0215cd20c86f329c8debc0daeb8_5",
+        "x": "Results show that SRL is highly effective for ORL, which is consistent with previous findings <cite>(Kim and Hovy, 2006</cite>; Ruppenhofer et al., 2008; Marasovi\u0107 and Frank, 2018) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "5e34591c2a7b1664e1275372c40b79_2",
+        "x": "We further note that iterative bootstrapping over a single distant supervision system is difficult, because state-of-the-art systems (Surdeanu et al., 2012; <cite>Hoffmann et al., 2011</cite>; Riedel et al., 2010; Mintz et al., 2009) , detect only few false negatives in the training data due to their high-precision low-recall features, which were originally proposed by Mintz et al. (2009) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "5eb321d3c63642a4b148e1276eab20_1",
+        "x": "Recent years witness the boost of neural models in this task, e.g.,<cite> (Shimaoka et al. 2016)</cite> employs an attention based LSTM to attain sentence representations and achieves state-of-the-art performance. However, it still suffers from noise in training data, which is a main challenge in this task.",
+        "y": "background motivation"
+    },
+    {
+        "id": "5fc7df69445712a50228d0bf80f30a_3",
+        "x": "In addition, by applying a semi-supervised label propagation procedure (Zhou et al., 2003) , we can also use the tensor embedding method for small sample humor recognition, achieving about 0.7 accuracy with only 10% of known labels on the 16000 One-Liners (Mihalcea and Strapparava, 2005) and Pun of the Day<cite> (Yang et al., 2015)</cite> datasets.",
+        "y": "background motivation"
+    },
+    {
+        "id": "5fc7df69445712a50228d0bf80f30a_7",
+        "x": "To show the effectiveness of label propagation of our tensor embedding method for small sample humor recognition, we conduct an experiment on two humor classification datasets 16000 One-Liners (Mihalcea and Strapparava, 2005) and Pun of the Day<cite> (Yang et al., 2015)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "5fc7df69445712a50228d0bf80f30a_8",
+        "x": "Our own implementation of<cite> Yang et al. (2015)</cite> is included as a baseline. While<cite> Yang et al. (2015)</cite> uses a large portion of data for training and combine different features, we find that at similar portion of training data (90%), the results of our method are comparable to it.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "642aa9fe999d0b2b3793cb1603c04c_2",
+        "x": "Our proposed framework ( Figure 1a ) is built around self-attention layers, as used in the Transformer encoder<cite> [22]</cite> , previous explorations of self-attention in ASR [19, 27] , and defined in Section 2.3.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "642aa9fe999d0b2b3793cb1603c04c_3",
+        "x": "Maximum path length Table 1 : Operation complexity of each layer type, based on<cite> [22]</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "668e8967d702d4538c85935de083f7_0",
+        "x": "Our method is based on the method described in (<cite>Hoshino et al., 2013</cite>) , and extends <cite>their</cite> rules to handle abbreviation and passivization frequently found in scientific papers.",
+        "y": "extends uses"
+    },
+    {
+        "id": "668e8967d702d4538c85935de083f7_5",
+        "x": "\u2022 We propose an extension to (<cite>Hoshino et al., 2013</cite>) in order to deal with abbreviation and passivization frequently found in scientific papers.",
+        "y": "extends motivation"
+    },
+    {
+        "id": "668e8967d702d4538c85935de083f7_8",
+        "x": "3 Extension to (<cite>Hoshino et al., 2013</cite>) Our proposed preordering model is based on (<cite>Hoshino et al., 2013</cite>) with three extensions to better handle academic writing in scientific papers.",
+        "y": "extends uses"
+    },
+    {
+        "id": "66b6283cf1f20977286f99ef21b3c7_0",
+        "x": "The challenge is that these models must describe semantics and pragmatics, as well as syntax and behavior. My own slow progress (Cassell et al., 2000; <cite>Koller and Stone, 2007)</cite> shows that there's still lots of hard work needed to develop suitable techniques.",
+        "y": "motivation future_work"
+    },
+    {
+        "id": "672d4299e60752e866293d72f97905_4",
+        "x": "The fact that the methods developed by [4] and<cite> [12]</cite> are based on a large, scarce lexical resources as WordNet, led us to raise the question \"Could we have a similar performance with a simpler set of features which are easily obtainable for most languages?\". Therefore we decided to build our regressors using only word length, frequency lists, lexical databases composed of school dictionaries and word embeddings models.",
+        "y": "background motivation"
+    },
+    {
+        "id": "672d4299e60752e866293d72f97905_5",
+        "x": "One critical difference between the strategy of<cite> [12]</cite> and ours is that they concatenate all features to train a regressor, while we take a different approach. Although simply combining all features is straightforward, it can lead to noise insertion, given that the features used greatly contrast among them (e.g. word embeddings and word length). Instead, we adopted a more elegant solution, called Multi-View Learning [19] .",
+        "y": "differences motivation"
+    },
+    {
+        "id": "6a693f9cbc6dbb3676d765eee97db7_2",
+        "x": "For example, smoothing methods have played a central role in probabilistic approaches (Collins, 1997;<cite> Wang et al., 2005)</cite> , and yet they are not being used in current large margin training algorithms. I have addressed both of these issues, as well as others in my work.",
+        "y": "motivation background"
+    },
+    {
+        "id": "6e92b1fa4f3b78a099cb222b3eb9a9_1",
+        "x": "One of the most successful acoustic approaches is, the use of i-Vector framework for LID, where i-Vectors are extracted for each speech utterance, using an i-Vector extractor that consists of a GMM-UBM trained on top of BNF, followed by a Total Variability Subspace Model<cite> [2,</cite> 11] .",
+        "y": "extends differences"
+    },
+    {
+        "id": "6e92b1fa4f3b78a099cb222b3eb9a9_2",
+        "x": "This model combination approach has been shown to give performace improvements on the DID task <cite>[2]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "6e92b1fa4f3b78a099cb222b3eb9a9_4",
+        "x": "We use the same Deep Neural Network (DNN) based ASR system to extract the BNF as in our previous works<cite> [2,</cite> 13] .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "6e92b1fa4f3b78a099cb222b3eb9a9_5",
+        "x": "In this work, GMM-UBM model has 2048 gaussian components, MFCC features are extracted using a 25 ms window and the i-Vectors are 400 dimensional <cite>[2]</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "6e92b1fa4f3b78a099cb222b3eb9a9_7",
+        "x": "Training and test data used in this work is the same as used in <cite>[2]</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "70d41cad40091bcc30a1fd544c277d_7",
+        "x": "Trending with<cite> Devlin et al. (2018)</cite> , BERT large achieves state-of-the-art results on all four datasets, followed by BERT base (see Table 2 , rows 11 and 12).",
+        "y": "background similarities"
+    },
+    {
+        "id": "70dc108166d6b5fb9da39c451c3229_6",
+        "x": "For sentence selection, we used the modified document retrieval component of DrQA (Chen et al., 2017) to select sentences using bigram TF-IDF with binning as proposed by<cite> (Thorne et al., 2018)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "7404a4e4e23eea9663b580f9959689_0",
+        "x": "The edit operations include: (M)atching an element in S with an element in T; (I)nserting an element into T, and (D)eleting an element in S. 1 The generation task is part of the NEWS 2009 machine transliteration shared task<cite> (Li et al., 2009)</cite> Based on all representative symbols used for each of the two languages, emission costs for each of the edit operations and transition parameters can be estimated and used in measuring the similarity between two strings.",
+        "y": "uses background"
+    },
+    {
+        "id": "74623c8d812e3c84e7bc6b46e982f5_0",
+        "x": "Over a decade of research has considered conversation disentanglement (Shen et al., 2006) , but using datasets that are either small (2,500 messages,<cite> Elsner and Charniak, 2008)</cite> or not released (Adams and Martell, 2008) .",
+        "y": "background motivation"
+    },
+    {
+        "id": "74623c8d812e3c84e7bc6b46e982f5_11",
+        "x": "Decreasing the data size to match <cite>Elsner and Charniak (2008)</cite> 's training set leads to worse results, both if the sentences are from diverse contexts (3rd row), and if they are from just two contexts (bottom row).",
+        "y": "uses differences"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_3",
+        "x": "Curriculum learning can be seen as a sequence of training criteria<cite> [Bengio et al., 2009]</cite> , with increasing task or sample difficulty as the training progresses. It is also closely related with transfer learning by pretraining, especially in the case when the tasks form a logical hierarchy and contribute to the downstream tasks. With this purview, we propose a linguistic hierarchy of training tasks for codemixed languages, with further layers abstracting over the previous ones to achieve increasingly complicated tasks.",
+        "y": "motivation background"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_5",
+        "x": "As noted in earlier efforts<cite> [Howard and Ruder, 2018</cite> ] towards finetuning pretrained models for NLP tasks, aggressive finetuning can cause catastrophic forgetting, thus causing the model to simply fit over the target task and forget any capabilities gained during the pretraining stage. On the other hand, too cautious finetuning can cause slow convergence and overfitting.",
+        "y": "motivation background"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_6",
+        "x": "Gradual Unfreezing: Similar to<cite> [Howard and Ruder, 2018]</cite> , rather than updating all the layers together for finetuning, we explore gradual ordered unfreezing of layers. Thus, initially we freeze all the layers. Then starting from the last layer, we train the model for a certain number of epochs before unfreezing the layer below it. Thus for Sentiment Analysis finetuning, for the first epoch, only \u03b8 sentiment receives the gradient updates, after which we unfreeze the \u03b8 lstm2 , and subsequently unfreeze the lower layers in a similar manner.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_7",
+        "x": "With this purview, similar to<cite> [Howard and Ruder, 2018]</cite> , we propose optimizing different layers in our model to different extents, and keep lower step sizes for the deeper pretrained layers while finetuning on a downstream task. We thus split the parameters as {\u03b8 1 , ..., \u03b8 l } , where \u03b8 i corresponds to the parameters of layer i, and optimize them with separate learning rates {\u03b7 1 , ...., \u03b7 l } . Also, when finetuning a pretrained layer for a downstream task, we keep \u03b7 i < \u03b7 j ; \u2200i < j. Thus, while finetuning the POS + Lang Id pretrained model for Language Modeling, we propose to keep the learning rates for Embedding Layer and LSTM Layer 1 lower than the LSTM Layer 2 weights. Similarly, when finetuning the Language Model for Sentiment Analysis, we keep the learning rates of the deeper layers lower than that of the shallower ones.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_8",
+        "x": "We experiment with average pooling and max pooling concatenation over hidden states for semantic prediction, similar to<cite> [Howard and Ruder, 2018]</cite> , and observe increase in model accuracy by 2.2% on sentiment analysis.",
+        "y": "similarities background"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_9",
+        "x": "We note the convergence of our model with and without curriculum training, and observe that the curriculum training regimen causes faster convergence, as has been observed in previous works [Bengio et al., 2009;<cite> Howard and Ruder, 2018]</cite> .",
+        "y": "similarities background"
+    },
+    {
+        "id": "74cd12a801d1f8a95f8898a8cef9c0_10",
+        "x": "As discussed in Section 4.3, for our transfer learning optimization experiments, we segment the optimization of different parameters of our model with different learning rates, in order to limit catastrophic forgetting and interference among the tasks, as proposed by<cite> [Howard and Ruder, 2018]</cite> .",
+        "y": "background similarities"
+    },
+    {
+        "id": "74db2b52e81969742f8f7e5681bd2b_4",
+        "x": "Different from previously known coattention mechanisms such as (Xiong et al., 2017; Lu et al., 2016a) , our co-attention is built through connecting two multiplicative attention modules<cite> (Vaswani et al., 2017</cite> ) each containing three gates, i.e., Value, Key and Query.",
+        "y": "extends uses"
+    },
+    {
+        "id": "76476d80e1d3f65818592ec4caab0e_2",
+        "x": "1 Code available at https://github.com/ sweetpeach/ReCode Tree-based approaches<cite> (Yin and Neubig, 2017</cite>; Rabinovich et al., 2017) represent code as Abstract Syntax Trees (ASTs), which has proven effective in improving accuracy as it enforces the well-formedness of the output code. However, representing code as a tree is not a trivial task, as the number of nodes in the tree often greatly exceeds the length of the NL description. As a result, tree-based approaches are often incapable of generating correct code for phrases in the corresponding NL description that have low frequency in the training data.",
+        "y": "background motivation"
+    },
+    {
+        "id": "7700b6c3c096d5cd7999c34e7614f7_1",
+        "x": "On one hand, a number of methods have been developed to build hierarchies based on lexical patterns in text (Yang and Callan, 2009; Snow et al., 2006; Kozareva and Hovy, 2010; Navigli et al., 2011; Fu et al., 2014;<cite> Bansal et al., 2014</cite>; Tuan et al., 2015) . These works generally ignore the rich visual data which encode important perceptual semantics (Bruni et al., 2014) and have proven to be complementary to linguistic information and helpful for many tasks (Silberer and Lapata, 2014; Kiela and Bottou, 2014; . On the other hand, researchers have built visual hierarchies by utilizing only visual features (Griffin and Perona, 2008; Yan et al., 2015; Sivic et al., 2008) . The resulting hierarchies are limited in interpretability and usability for knowledge transfer. Hence, we propose to combine both visual and textual knowledge to automatically build taxonomies.",
+        "y": "extends motivation"
+    },
+    {
+        "id": "7700b6c3c096d5cd7999c34e7614f7_13",
+        "x": "We compare the following methods: (1) Fu2014, (2) Ours (L), and (3) Ours (LV), as described above; (4) Bansal2014: The model by <cite>Bansal et al. (2014)</cite> retrained using our dataset; (5) Ours (LB): By excluding visual features, but including other language features from <cite>Bansal et al. (2014)</cite> ; (6) Ours (LVB): Our full model further enhanced with all semantic features from <cite>Bansal et al. (2014)</cite> ; (7) Ours (LVB -E): By excluding word embeddingbased language features from Ours (LVB).",
+        "y": "uses differences"
+    },
+    {
+        "id": "7b69c68a602e90c7ee7b9fa8a8facf_2",
+        "x": "The first is synchronous parsing <cite>(Galley et al., 2006</cite>; May and Knight, 2007) , where TTS templates are used to construct synchronous parse trees for an input sentence, and the translations will be generated once the synchronous trees are built up. In this paper, we use a TTS transducer to test the performance of different TTS templates, but our techniques could also be applied to SSMT systems based on synchronous parsing.",
+        "y": "similarities background"
+    },
+    {
+        "id": "7c8f54479ce1f9d81b49839425f58e_3",
+        "x": "We also test our model on a number of transfer learning tasks using the SentEval testing library<cite> (Conneau et al., 2017)</cite> , and show that our model outperforms the InferSent model on 7 out of 10 and SkipThought on 8 out of 9 tasks, comparing to the scores reported by <cite>Conneau et al. (2017)</cite> .",
+        "y": "uses differences"
+    },
+    {
+        "id": "7c8f54479ce1f9d81b49839425f58e_5",
+        "x": "Motivated by the strong results of the BiLSTM max pooling network by <cite>Conneau et al. (2017)</cite> , we experimented with combining BiLSTM max pooling networks as a hierarchical structure.",
+        "y": "extends motivation"
+    },
+    {
+        "id": "7e73137c97a84fe7fa4941ecd06a91_4",
+        "x": "In this section, we describe how we used the large ATH introduced in Section 3 in order to annotate a corpus drawn from more than 10,000 questions compiled from (1) existing annotated question corpora<cite> (Li and Roth, 2002)</cite> , (2) collections of questions mined from the web, and (3) questions submitted to LCC's FERRET question-answering system (Hickl et al., 2006a) .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "7e73137c97a84fe7fa4941ecd06a91_5",
+        "x": "In a departure from previous machine-learning based approaches<cite> (Li and Roth, 2002</cite>; Krishnan et al., 2005) , we used a maximum entropy classifier to learn our ATH.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "7f1723c42fc577fdfd7144b7991db1_3",
+        "x": "Unidirectional models are commonly used in the previous approaches [2, 3, 4, 5, 6,<cite> 7]</cite> . However, this constraint on model architectures limits the potential of speech representation learning.",
+        "y": "background motivation"
+    },
+    {
+        "id": "7f2622701e1f6c8492ec627b6ac32b_4",
+        "x": "Therefore, the temporal context was only used for dereverberation and the mixture model parameter estimation, while for the estimation of covariance matrices for beamforming the context was dropped and only the original segment length was considered <cite>[13]</cite> .",
+        "y": "extends uses"
+    },
+    {
+        "id": "7f78697390e28cc7798f8cb183cb59_7",
+        "x": "We use the VNC-Tokens dataset (Cook et al., 2008) -the same dataset used by Fazly et al. (2009) and <cite>Salton et al. (2016)</cite> -to train and evaluate our models.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "7f78697390e28cc7798f8cb183cb59_10",
+        "x": "We retain We then divide each of these into training and testing sets, using the same ratios of idiomatic to literal usages for each expression as <cite>Salton et al. (2016)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "8075c3716c0be601a769ccd53b0c5e_0",
+        "x": "Recently, however, <cite>Hirschberg and Litman (1993)</cite> have presented rules for classifying cue phrases in both text and speech. <cite>Hirschberg and Litman</cite> pre-classi ed a set of naturally occurring cue phrases, described each cue phrase in terms of prosodic and textual features, then manually examined the data to construct rules that best predicted the classi cations from the features.",
+        "y": "motivation background"
+    },
+    {
+        "id": "8075c3716c0be601a769ccd53b0c5e_10",
+        "x": "This section describes experiments that use the machine learning programs C4.5 (Quinlan 1986; and cgrendel (Cohen 1992; 1993) to automatically induce cue phrase classi cation rules from both the data of <cite>(Hirschberg & Litman 1993)</cite> and an extension of this data.",
+        "y": "extends uses"
+    },
+    {
+        "id": "808e0a94b877182dc06447c8682a63_0",
+        "x": "Features from n-gram counts over resources like Web1T (Brants and Franz, 2006 ) have proven to be useful proxies for syntax<cite> (Bansal and Klein, 2011</cite>; Pitler, 2012) , but they enforce linear word order, and are unable to distinguish between syntactic and non-syntactic co-occurrences.",
+        "y": "background motivation"
+    },
+    {
+        "id": "808e0a94b877182dc06447c8682a63_2",
+        "x": "We also develop paraphrase-style features like those of<cite> Bansal and Klein (2011)</cite> based on the most frequently occurring words and POS tags before, in between, and after each head-argument ambiguity (see Section 3.2).",
+        "y": "uses similarities"
+    },
+    {
+        "id": "831342435ca0a4695e2a7f149891e4_1",
+        "x": "Following recent speech translation <cite>[21]</cite> and recognition [28] models, the encoder is composed of a stack of 8 bidirectional LSTM layers.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "831342435ca0a4695e2a7f149891e4_2",
+        "x": "We study two Spanish-to-English translation datasets: the large scale \"conversational\" corpus of parallel text and read speech pairs from <cite>[21]</cite> , and the Spanish Fisher corpus of telephone conversations and corresponding English translations [38] , which is smaller and more challenging due to the spontaneous and informal speaking style.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "831342435ca0a4695e2a7f149891e4_3",
+        "x": "This proprietary dataset described in <cite>[21]</cite> was obtained by crowdsourcing humans to read the both sides of a conversational Spanish-English MT dataset.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "831342435ca0a4695e2a7f149891e4_4",
+        "x": "In this section, instead of using the human target speech, we use a TTS model to synthesize target In addition, we augment the input source speech by adding background noise and reverberation in the same manner as <cite>[21]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "831342435ca0a4695e2a7f149891e4_6",
+        "x": "Table 2 shows performance of the model trained using different combinations of auxiliary losses, compared to a baseline ST \u2192 TTS cascade model using a speech-to-text translation model <cite>[21]</cite> trained on the same data, and the same Tacotron 2 TTS model used to synthesize training targets.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "845c66e6dfafc21ab90e5aa5cbf947_2",
+        "x": "As in <cite>[14,</cite> 11] , our first approach is to use the word labels of the training segments and train the networks to classify the word.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "845c66e6dfafc21ab90e5aa5cbf947_6",
+        "x": "As in<cite> [14]</cite> , when training the classificationbased embeddings, we use a subset of the training set containing all word types with a minimum of 3 occurrences, reducing the training set size to approximately 9k segments.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "866cc7036c626f07fba10ab2a839d8_1",
+        "x": "Again, such approach achieves a significant improvement over the prior work that also uses CNN+LSTM approach on <cite>Visual Madlibs</cite>.",
+        "y": "motivation differences"
+    },
+    {
+        "id": "866cc7036c626f07fba10ab2a839d8_4",
+        "x": "Although related ideas have been explored for visual question answering [22] , and even have been used in <cite>Visual Madlibs</cite> <cite>[32]</cite> , we are first to show a significant improvement of such representation by using object proposals.",
+        "y": "motivation differences"
+    },
+    {
+        "id": "866cc7036c626f07fba10ab2a839d8_19",
+        "x": "We evaluate our method on the multiple choice task of the <cite>Visual Madlibs dataset</cite>. <cite>The dataset</cite> consists of about 360k descriptions, spanning 12 different categories specified by different types of templates, of about 10k images.",
+        "y": "uses background"
+    },
+    {
+        "id": "866cc7036c626f07fba10ab2a839d8_24",
+        "x": "To see the limits, we compare nCCA (ours) against nCCA (bbox) <cite>[32]</cite> that crops over ground truth bounding boxes from MS COCO segmentations and next averages over theirs representations (Table 3 in <cite>[32]</cite> shows that ground truth bounding boxes outperforms automatically detected bounding boxes, and hence they can be seen as an upper bound for a detection method trained to detect objects on MS COCO).",
+        "y": "uses differences"
+    },
+    {
+        "id": "87a190b1df5a7a941ba7b9a98064a3_0",
+        "x": "Similar to<cite> Zhang et al. (2006)</cite> , we employ a convolution parse tree kernel in order to model syntactic structures.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "87a190b1df5a7a941ba7b9a98064a3_1",
+        "x": "We employ the same convolution tree kernel used by Collins and Duffy (2001) , Moschitti (2004) and<cite> Zhang et al. (2006)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "87af486eb2e968d2055eeab094b3f9_12",
+        "x": "In order to study the effects of incorporating self-attention mechanism in joint prediction of image and language features, we examine attention vectors for selected samples from MS-COCO dataset and compare them to associated images ( Figure 1 ). These findings show that visually grounding self-attended sentence representations helps to expose word-level visual features onto sentence representations <cite>[8]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "88900d3533701056f6a26bf7c68670_1",
+        "x": "Several learning systems have been developed for semantic parsing, many of them recently (Zelle and Mooney, 1996; Zettlemoyer and Collins, 2005; Ge and Mooney, 2005;<cite> Kate and Mooney, 2006)</cite> . These systems use supervised learning methods which only utilize annotated NL sentences. In this paper we present, to our knowledge, the first semi-supervised learning system for semantic parsing.",
+        "y": "differences background"
+    },
+    {
+        "id": "8b223f35a4685d6627d29c907e4742_1",
+        "x": "Caliskan et al. proposed Word Embedding Association Test (WEAT) to computationally measure biases in any text repository <cite>[5]</cite> . We apply the WEAT test on song lyrics and discuss its implications.",
+        "y": "uses background"
+    },
+    {
+        "id": "8c202e3610599c9eee23724ef213de_3",
+        "x": "In classifying propositions,<cite> Park and Cardie (2014)</cite> followed previous work such as Reed et al. (2008) and Palau and Moens (2009) , employing supervised learning methods. Despite using a rich set of linguistic features, these approaches suffer from low accuracy. In this paper, we show that state-of-the-art performance in claim classification for online user comments can be achieved without the need for expensive features.",
+        "y": "differences motivation"
+    },
+    {
+        "id": "8c530e0c9f7256ac44b1a2adfaf6a9_3",
+        "x": "Instead of using basic CNN, a new recurrent sequential CNN is used by <cite>Zahiri and Choi (2018)</cite> . All the models discussed above show that the emotion prediction can be handled using variants of deep neural network such as C-GRU, G-RNN and Sequential-CNN. The commonality between the above models are the variations of RNN or LSTM. This motivated us to use the Sequenceto-Sequence (Seq2Seq) model which consists of stacked LSTMs to predic the emotion labels conditioned on the given utterance sequences.",
+        "y": "background motivation"
+    },
+    {
+        "id": "8e0dcaec15a3b9c4947946a4e885c8_1",
+        "x": "Before describing the loss functions used, we explain the aforementioned variation on the autoencoding method and how it slightly differs from 1TON/1TON + (Yin and Sch\u00fctze, 2015) and standard AEs<cite> (Bao and Bollegala, 2018)</cite> presented in previous work.",
+        "y": "uses differences"
+    },
+    {
+        "id": "8e0dcaec15a3b9c4947946a4e885c8_2",
+        "x": "Figure 2 shows a comparison of the previous autoencoder approaches<cite> (Bao and Bollegala, 2018)</cite> (left) and the alternative AE (right), where dashed lines indicate connections during training and bold lines indicate prediction.",
+        "y": "uses background"
+    },
+    {
+        "id": "918caabbc0bcad04cd07761b29e767_2",
+        "x": "The same taxonomy, training and testing data was used as in <cite>Li and Roth (2002)</cite>",
+        "y": "similarities uses"
+    },
+    {
+        "id": "918caabbc0bcad04cd07761b29e767_5",
+        "x": "The corpora used is both the corpus constructed and tagged by <cite>Li and Roth (2002)</cite> , as well as a newly tagged corpus extracted from the AnswerBus logs.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "918caabbc0bcad04cd07761b29e767_6",
+        "x": "First, we have used the corpus originally developed by<cite> (Li and Roth, 2002)</cite> , but since the test corpus used consists of questions solely from TREC-10 and the TREC conferences have a specific agenda the test corpus might be slightly different from the training data.",
+        "y": "extends differences"
+    },
+    {
+        "id": "92d9291093f4ff9f10cca1b8ad2a27_4",
+        "x": "Additionally, following <cite>Yu et al. (2017)</cite> , we add another neural network (Q'-R), the right part of the architecture, to compute the matching score of Q' with the relation of Q (R).",
+        "y": "extends differences"
+    },
+    {
+        "id": "92d9291093f4ff9f10cca1b8ad2a27_5",
+        "x": "Following the previous works by Yin et al. (2016) and <cite>Yu et al. (2017)</cite> , we use the common benchmark dataset of the simple question answering, namely SimpleQuestions, which was originally introduced by Bordes et al. (2015) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "92d9291093f4ff9f10cca1b8ad2a27_8",
+        "x": "The model is reimplemented for SimpleQuestions by <cite>Yu et al. (2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "93a1f611592ce6aa5cde7538486f97_1",
+        "x": "Neural language models, originating from the word2vec algorithm (Mikolov et al., 2013a; Mikolov et al., 2013b; Mikolov et al., 2013c) , are currently considered as state-of-the-art solutions for implementing this assumption (Schnabel et al., 2015) . Within this approach, changes in similarity relations between lexical items at two different points of time are interpreted as a signal for meaning shift. Accordingly, lexical items which are very similar to the lexical item under scrutiny can be considered as approximating its meaning at a given point in time. Both techniques were already combined in prior work to show, e.g., the increasing association of the lexical item \"gay\" with the meaning dimension of \"homosexuality\"<cite> (Kim et al., 2014</cite>; Kulkarni et al., 2015) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "93a1f611592ce6aa5cde7538486f97_2",
+        "x": "Neural language models for tracking semantic changes over time typically distinguish between two different training protocols-continuous training of models<cite> (Kim et al., 2014)</cite> where the model for each time span is initialized with the embeddings of its predecessor, and, alternatively, independent training with a mapping between models for different points in time (Kulkarni et al., 2015) . A comparison between these two protocols, such as the one proposed in this paper, has not been carried out before. Also, the application of such protocols to non-English corpora is lacking, with the exception of our own work relating to German data (Hellrich and Hahn, 2016b; Hellrich and Hahn, 2016a) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "93a1f611592ce6aa5cde7538486f97_4",
+        "x": "We thus concentrate on two experimental protocols-the one described by <cite>Kim et al. (2014)</cite> (referred to as Kim protocol) and the one from Kulkarni et al. (2015) (referred to as Kulkarni protocol), including close variations thereof. Kim's protocol operates on uniformly sized samples of 10M 5-grams for each year from 1850 onwards in a continuous fashion (years before 1900 are used for initialization only). Its constant sampling sizes result in both oversampling and undersampling as is evident from Figure 1 .",
+        "y": "uses background"
+    },
+    {
+        "id": "966106c9e00f0333bda45d977a9f35_1",
+        "x": "Recent work<cite> (Gehring et al., 2017)</cite> has shown that a purely CNN based encoder-decoder network is competitive with a RNN based network.",
+        "y": "motivation background"
+    },
+    {
+        "id": "967c78ccf905c69d732a4c1ef00289_6",
+        "x": "It usually contains one hidden layer (Zeng et al., 2014;<cite> Nguyen and Grishman, 2016</cite>; Fu et al., 2017 ) and a softmax output layer. We use the same structure which can be formalized as the following:",
+        "y": "uses similarities"
+    },
+    {
+        "id": "9684063f991f9a4688d6530fe5a16c_1",
+        "x": "Among the studies on humor classification, Mihalcea and Strapparava (2005) and <cite>Yang et al. (2015)</cite> reported high performance on the task. Considering the performance of their systems, it is reasonable to test the applicability of their models to a real application. In this study, we specifically applied a state-of-the-art automatic humor recognition model to talks and investigated if the model could be used to provide simulated laughters.",
+        "y": "motivation background"
+    },
+    {
+        "id": "9684063f991f9a4688d6530fe5a16c_2",
+        "x": "In our application of the state-of-art system to talks, we could not achieve a comparable performance to the reported performance of the system. We investigated the potential reasons for the performance difference through further analysis. Some humor classification studies (Mihalcea and Strapparava, 2005;<cite> Yang et al., 2015</cite>; Barbieri and Saggion, 2014 ) have used negative instances from different domains or topics, because non-humorous sentences could not be found or are very challenging to collect in target domains or topics. Their studies showed that it was possible to achieve promising performance using data from heterogeneous domains. However, our study showed that humorous sentences which were semantically close to non-humorous sentences were very challenging to distinguish.",
+        "y": "motivation background differences"
+    },
+    {
+        "id": "9684063f991f9a4688d6530fe5a16c_11",
+        "x": "We reimplemented features developed by <cite>Yang et al. (2015)</cite> and evaluated those features on Talk data. Considering the different characteristics of Talk data versus Pun data, we sought to investigate whether Yang's model could achieve the reported performance (over 85% accuracy) on our Talk data. The differences were 1) humorous sentences in Talk data were sentences which induced audience laughters, compared to Pun data which used canned textual humor, 2) all non-humorous sentences in Talk data were also from TED talks, and 3) each pair of humorous and non-humorous sentences were semantically close because they were closely placed. These differences made the humor classification task more challenging.",
+        "y": "extends differences"
+    },
+    {
+        "id": "9684063f991f9a4688d6530fe5a16c_12",
+        "x": "We followed the experimental setup of <cite>Yang et al. (2015)</cite> in order to see if the performance of our duplicated features was comparable to their reported performance. Their best performance was 85.4% accuracy (Yang in Table 1 ) when they used Random Forest as a classifier and 10-fold cross validation (CV) as an evaluation method. Replicating this experiment setup, we were able to achieve 86.0% accuracy (Pun-to-Pun in Table 1 ), which is slightly better than the performance reported in their paper. The performance difference could be due to the difference in partitions in CV.",
+        "y": "uses differences"
+    },
+    {
+        "id": "9795a839cb79ed971de4c325e01e74_3",
+        "x": "Inspired by the popular GuessWhat or 20-Questions game, we design a human computation game -GuessWhich -which requires collaboration between human and visual conversational AI agents. Mirroring the setting of<cite> (Das et al. 2017b)</cite> , GuessWhich is an image-guessing game that consists of 2 participants -questioner and answerer.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "9795a839cb79ed971de4c325e01e74_4",
+        "x": "We evaluate human-AI team performance in GuessWhich, for the setting where the questioner is a human and the answerer is an AI (that we denote ALICE). Specifically, we evaluate two versions of ALICE for GuessWhich: 1. ALICE SL which is trained in a supervised manner on the Visual Dialog dataset (Das et al. 2017a ) to mimic the answers given by humans when engaged in a conversation with other humans about an image, and 2. ALICE RL which is pre-trained with supervised learning and fine-tuned via reinforcement learning for an imageguessing task as in<cite> (Das et al. 2017b)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "982991efdb6b14f187702e0a577bac_4",
+        "x": "We follow<cite> Mehri and Carenini (2017)</cite> and keep system messages.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "9885b924f6b0806844d4e70d857a35_2",
+        "x": "Our contributions are as follows: (1) we propose the use of Modified Adsorption (Talukdar and Crammer, 2009) as a baseline networkbased geolocation model, and show that it outperforms previous network-based approaches (Jurgens, 2013;<cite> Rahimi et al., 2015)</cite> ; (2) we demonstrate that removing \"celebrity\" nodes (nodes with high in-degrees) from the network increases geolocation accuracy and dramatically decreases network edge size; and (3) we integrate textbased geolocation priors into Modified Adsorption, and show that our unified geolocation model outperforms both text-only and network-only approaches, and achieves state-of-the-art results over three standard datasets.",
+        "y": "uses differences"
+    },
+    {
+        "id": "98eef9a1dbea3ddd0a8fd1b9c9376c_9",
+        "x": "The algorithm for maximizing (1) advocated in <cite>[23]</cite> , and implemented in its open-source counterpart, is a minibatch stochastic gradient descent (SGD).",
+        "y": "uses background"
+    },
+    {
+        "id": "9f1d2be80dbfd726a24fb2a05e130b_3",
+        "x": "Based on successful studies on Neural Machine Translation (Cho et al., 2014a; <cite>Sutskever et al., 2014</cite>; Hirschberg and Manning, 2015) , in this paper, we proposed a character-based encoderdecoder model which learn to transliterate endto-end.",
+        "y": "uses background"
+    },
+    {
+        "id": "9f1d2be80dbfd726a24fb2a05e130b_4",
+        "x": "Here, we describe briefly the underlying framework, called <cite>RNN Encoder-Decoder</cite>, proposed by (Cho et al., 2014b) and <cite>(Sutskever et al., 2014)</cite> upon which we build a machine transliteration model that learns to transliterate end-to-end.",
+        "y": "uses background"
+    },
+    {
+        "id": "a0db9c3a74487d3fcd11e79d44e163_7",
+        "x": "We present their descriptions in the following and summarize the statistics of the datasets in Table 1. 1) AI2 [21] . 2) IL <cite>[26]</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "a0db9c3a74487d3fcd11e79d44e163_9",
+        "x": "We present their descriptions in the following and summarize the statistics of the datasets in Table 1. 1) AI2 [21] . 3) CC <cite>[26]</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "a0db9c3a74487d3fcd11e79d44e163_18",
+        "x": "Two types of quantity-pair features were both adopted in the template-based solutions to equation set problems [39] [40] . Finally, a popular quantity-pair feature used in <cite>[26]</cite> [28] [15] [39] [40] [45] examines whether the value of one quantity is greater than the other, which is helpful to determine the correct operands for subtraction operator.",
+        "y": "uses background"
+    },
+    {
+        "id": "a334cda78f8ba6dea709809f0999b6_2",
+        "x": "To address this, we applied the WEAT test on four sets of word embeddings trained on corpora from four domains: social media (Twit-ter), a Wikipedia-based gender-balanced corpus (GAP) and a biomedical corpus (PubMed) and news (Google News, in order to reproduce and validate our results against those of<cite> Caliskan et al. (2017)</cite> ) (see Section 3).",
+        "y": "similarities uses"
+    },
+    {
+        "id": "a334cda78f8ba6dea709809f0999b6_3",
+        "x": "We largely follow the WEAT Hypothesis testing protocol introduced by<cite> Caliskan et al. (2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "a62f376adefad10c5fb8b6c08ebb63_2",
+        "x": "The assumption in this and related work that enables us to introduce a meaningful notion of alignment capacity is that simultaneously recognized words are aligned (Wu, 1997; Zhang and Gildea, 2004;<cite> Wellington et al., 2006</cite>; S\u00f8gaard and Kuhn, 2009) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "a7559a8775941622d269433937633a_0",
+        "x": "Robust grammar-based language modeling is a topic that has received a fair bit of attention over the past decade (Chelba and Jelinek 2000; <cite>Charniak 2001</cite>; Roark 2001; Wang, Stolcke, and Harper 2004, among others) , and while this line of research has not focused on the use of manually built, narrow-domain feature grammars, there is enough similarity between the approach described in this book and the cited papers that the papers would seem to be better comparison points than the class-based language models that are chosen to represent robust approaches in the comparison.",
+        "y": "background similarities"
+    },
+    {
+        "id": "a789aea59eebfefb990dfc6367d323_1",
+        "x": "Previous work only retrieves time-rich sentences that include both the query and some TEs<cite> McClosky and Manning, 2012</cite>; Garrido et al., 2012) .",
+        "y": "motivation background"
+    },
+    {
+        "id": "a789aea59eebfefb990dfc6367d323_4",
+        "x": "Previous work only retrieves time-rich sentences (i.e., date sentences) (Ling and Weld, 2010;<cite> McClosky and Manning, 2012</cite>; Garrido et al., 2012) .",
+        "y": "background motivation"
+    },
+    {
+        "id": "a789aea59eebfefb990dfc6367d323_6",
+        "x": "In previous work <cite>(McClosky and Manning, 2012</cite>; , the evaluation metric score is defined as 1/((1 + |d|)) where d is the difference between the values in years. We choose a much stricter evaluation metric because we need a precise event date to study user behavior changes.",
+        "y": "background differences"
+    },
+    {
+        "id": "a82bdc55c15bb2bcee77c57641b1b5_8",
+        "x": "While our method of extracting the GDepP features is identical to (Joshi and Penstein-Ros\u00e9, 2009 ), our method for extracting GDepO is an approximation of the method of<cite> (Somasundaran and Wiebe, 2010)</cite> , that does not rely on selecting particular patterns indicating the topics of arguing by using a development set.",
+        "y": "extends differences"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_0",
+        "x": "We experimented with four datasets widely used in literature: BLESS (Baroni and Lenci, 2011) , EVALution (Santus et al., 2015) , Lenci/Benotto (Benotto, 2015) , and Weeds (Weeds et al., 2014) taken from the repository provided by <cite>(Shwartz et al., 2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_1",
+        "x": "Similar to SLQS, our depth measure is motivated by distributional informativeness hypothesis <cite>(Shwartz et al., 2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_2",
+        "x": "We compared our numbers with those given in <cite>(Shwartz et al., 2017)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_3",
+        "x": "For the case of hypernym vs all other relations, except for EVALution, in all other data sets, our average precision (AP ) using both Jaccard and word2vec ( <cite>(Shwartz et al., 2017)</cite> call this as AP @all) is better than the best unsu- Table 2 : AP = average precision.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_4",
+        "x": "The Best AP and Best Measure is taken from <cite>(Shwartz et al., 2017)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_5",
+        "x": "pervised measure as reported in <cite>(Shwartz et al., 2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_6",
+        "x": "Our systems performs worse than the best measure whenever an Informativeness Measure <cite>(Shwartz et al., 2017)</cite> , like SLQS and its variants perform well.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "aa496bd71f380e02dd392cda969999_7",
+        "x": "For finding the best measure, <cite>(Shwartz et al., 2017)</cite> finds the best by varying the measures as well as the features, whereas we have a fixed system.",
+        "y": "extends differences"
+    },
+    {
+        "id": "af39041414dec545df878404328aab_1",
+        "x": "The maximum expected BLEU training of<cite> (He and Deng, 2012</cite> ) is a recent effort towards this direction, and in this paper, we extend their work to a scaled-up task of discriminative training of the features of a strong hierarchical phrase-based model and confirm its effectiveness empirically.",
+        "y": "extends background"
+    },
+    {
+        "id": "af39041414dec545df878404328aab_2",
+        "x": "Our contributions in this paper are two-folded: First of all, we scale up the maximum expected BLEU training proposed in<cite> (He and Deng, 2012)</cite> in a number of ways including using 1) a hierarchical phrase-based model, 2) a richer feature set, and 3) a larger training set with a much larger parameter set, resulting in more than 150 million parameters in the model being updated, which is one order magnitude higher than the phrase-based model reported in<cite> (He and Deng, 2012)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "b208c7180bc3f973b8616937b2801c_3",
+        "x": "For our experiments, we use the top-down single-sentence captioning model in Anderson et al. (2017) . This model is similar to the \"flat\" model in <cite>Krause et al. (2016)</cite> , except that it incorporates attention with a top-down mechanism.",
+        "y": "background similarities"
+    },
+    {
+        "id": "b3952c840ce970f0e66460ea6e145a_30",
+        "x": "We believe that the research direction of incorporating language models and multiple levels of representations can help to provide a wide set of rich features that can capture context-dependent semantics as well as linguistic features, such as seen on ELMo <cite>[33]</cite> downstream and linguistic probing task experiments, but for sentence embeddings.",
+        "y": "differences future_work"
+    },
+    {
+        "id": "b56e408c53636ac5fbf5149226319f_0",
+        "x": "We also compare our model with an end-toend tree-based LSTM model (SPTree) by <cite>Miwa and Bansal (2016)</cite> and show that our model performs within 1% on entity mentions and 2% on relations.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "b7278824bdae498021b899fbc6c638_3",
+        "x": "This analysis is inspired by <cite>(Zhang and Iria, 2009 )</cite>, but performed on the entire abstract which is clearly dis- <cite>(Zhang and Iria, 2009)</cite> , where this is applied only to the first sentence (as WIKIPEDIA does not directly provide a concept of \"abstract\").",
+        "y": "differences motivation"
+    },
+    {
+        "id": "bb2609c568540390a560757dd40b32_4",
+        "x": "To match the original setup of <cite>[1]</cite> we use the same training data 3 .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "bb2609c568540390a560757dd40b32_5",
+        "x": "Baselines from <cite>[1]</cite> Our Table 1 : Results of our experiments compared to the results reported in <cite>[1]</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "bb2609c568540390a560757dd40b32_6",
+        "x": "In this work we achieved a new state-of-the-art results on the next utterance ranking problem recently introduced in <cite>[1]</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "bb5e6e32d7e507bc6d943719c02902_1",
+        "x": "We propose to add an intermediate level of sparsification between individual weights <cite>[1]</cite> and neurons [14] -gates (see fig. 1 , left).",
+        "y": "extends uses"
+    },
+    {
+        "id": "bb5e6e32d7e507bc6d943719c02902_13",
+        "x": "This configuration corresponds to a model of Chirkova et al. <cite>[1]</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_0",
+        "x": "Our algorithm builds up on the span-based parser <cite>(Cross and Huang, 2016)</cite> ; it employs the strong generalization power of bi-directional LSTMs, and parses efficiently and robustly with an extremely simple span-based feature set that does not use any tree structure information.",
+        "y": "extends differences"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_1",
+        "x": "3. Even though it simultaneously performs constituency parsing, our parser does not use any explicit syntactic feature, nor does it need any binarization of discourse trees, thanks to the powerful span-based framework of<cite> Cross and Huang (2016)</cite> (Section 3).",
+        "y": "extends differences"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_2",
+        "x": "As mentioned above, the input sequences are substantially longer than PTB parsing, so we choose linear-time parsing, by adapting a popular greedy constituency parser, the span-based constituency parser of<cite> Cross and Huang (2016)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_3",
+        "x": "But different from<cite> Cross and Huang (2016)</cite> , after a structural action, we choose to keep the last branching point k, i.e., i Some text and the symbol or scaled k j (mostly for combine, but also trivially for shift).",
+        "y": "extends differences"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_6",
+        "x": "We use the \"training with exploration\" strategy (Goldberg and Nivre, 2013) and the dynamic oracle mechanism described in<cite> Cross and Huang (2016)</cite> to make sure the model can handle unseen parsing configurations properly.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "be77eed8430b6492c81ae6535f1dd5_7",
+        "x": "For most of the hyperparameters we settle with the same values suggested by<cite> Cross and Huang (2016)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "bead17ef9512f960461b681a78be4c_19",
+        "x": "Recall that we use the same debiasing method as<cite> Bolukbasi et al. (2016)</cite> ; the difference in performance can only be ascribed to how we choose the gender-appropriate words.",
+        "y": "uses differences"
+    },
+    {
+        "id": "bebcad79900e9a4a25020ed0d886b5_6",
+        "x": "This differs from Linzen et al. (2016) and <cite>Gulordava et al. (2018)</cite> by considering the entire sentence (excluding the verb) and not just its prefix leading to the verb, and differs from Marvin and Linzen (2018) by conditioning the focus verb on bidirectional context. I use the PyTorch implementation of BERT, with the pre-trained models supplied by Google.",
+        "y": "extends motivation"
+    },
+    {
+        "id": "bebcad79900e9a4a25020ed0d886b5_7",
+        "x": "I also discard the agreement cases involving the verbs is or are in Linzen et al. (2016) and in <cite>Gulordava et al. (2018)</cite> , because some of them are copular construction, in which strong agreement hints can be found also on the object following the verb.",
+        "y": "extends differences"
+    },
+    {
+        "id": "bebcad79900e9a4a25020ed0d886b5_11",
+        "x": "I expected the attentionbased mechanism to fail on these (compared to the LSTM-based models), and am surprised by these results. The <cite>Gulordava et al. (2018)</cite> and Marvin and Linzen (2018) conditions rule out the possibility of overly relying on selectional preference cues or memorizing the wikipedia training data, and suggest real syntactic generalization is taking place.",
+        "y": "uses background"
+    },
+    {
+        "id": "c022b7cf4568e26c7408a835eaafb7_7",
+        "x": "We explored two ways to apply fusion when starting from constituency parses: (1) fuse constituents and then convert them to dependencies and (2) convert to dependencies then fuse the dependencies as in<cite> Sagae and Lavie (2006)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c067711a58722737ef8b7ea987bcf3_6",
+        "x": "As previously indicated,<cite> Van Noord, Abzianidze, Toral, and Bos (2018)</cite> used a similar sequence-to-sequence model as our current approach, but implemented in OpenNMT and without the linguistic features.",
+        "y": "uses similarities differences"
+    },
+    {
+        "id": "c293e9fb8d6382f185a3efeaf0dbf7_0",
+        "x": "Different from Ma and Hovy (2016) and<cite> Liu et al. (2018)</cite> , choose a different data split on the POS dataset.",
+        "y": "extends differences"
+    },
+    {
+        "id": "c2952b2da147d5f128cdbd5d8074a5_3",
+        "x": "We also provide further evidence of the inability of the debiasing method proposed by<cite> Bolukbasi et al. (2016b)</cite> to handle the type of bias we are concerned with.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c2952b2da147d5f128cdbd5d8074a5_4",
+        "x": "We apply the debiasing methodology in<cite> (Bolukbasi et al., 2016b)</cite> to the pretrained embedddings.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "c2952b2da147d5f128cdbd5d8074a5_5",
+        "x": "We use the same methodology for growing a seed set of gender specific words into a larger set as described in<cite> (Bolukbasi et al., 2016b)</cite> , and end up with 486 manually curated gender specific words, including e.g., farfar (paternal grandfather), tvillingsystrar (twin sisters), and matriark (matriarch).",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c3f6140bd69d1eef0124665e651c0c_1",
+        "x": "Similarly to<cite> Klebanov et al. (2014)</cite> , we classify each content word (i.e., adjective, noun, verb or adverb) appearing in a proverb as being used metaphorically or not. As a baseline, we use a set of features very similar to the one proposed by<cite> Klebanov et al. (2014)</cite> . To obtain results more easily comparable with<cite> Klebanov et al. (2014)</cite>, we use the same classifier, i.e., logistic regression, in the implementation bundled with the scikit-learn package (Pedregosa et al., 2011) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c3f6140bd69d1eef0124665e651c0c_5",
+        "x": "We use the same 12-fold data split as<cite> Klebanov et al. (2014)</cite> , and also in this case we perform a grid-search to optimize the meta-parameter C of the logistic regression classifier.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c3f6140bd69d1eef0124665e651c0c_6",
+        "x": "Besides, the addition of N always leads to more balanced models, by compensating for the relatively lower precision of B. Due to the lack of a separate test set, as in the original setup by<cite> Klebanov et al. (2014)</cite> , and to the high dimensionality of B's lexicalized features, we cannot rule out over-fitting as an explanation for the relatively good performance of B on this benchmark. In particular, our implementation of the B features performs better than reported by<cite> Klebanov et al. (2014)</cite> on all four genres, namely: 0.52 vs. 0.51 for \"news\", 0.51 vs. 0.28 for \"academic\", 0.39 vs. 0.28 for \"conversation\" and 0.42 vs. 0.33 for \"fiction\".",
+        "y": "extends differences"
+    },
+    {
+        "id": "c4a9b122e8f1b9e98197743c94fea2_5",
+        "x": "Recent analysis (Martins et al., 2012 ) has shown that: (i) AD 3 converges at a faster rate, 2 and (ii) the quadratic subproblems can be solved using the same combinatorial machinery that is used in the subgradient algorithm. This opens the door for larger subproblems (such as the combination of trees and head automata in instead of a many-components approach <cite>(Martins et al., 2011)</cite> , while still enjoying faster convergence.",
+        "y": "motivation differences background"
+    },
+    {
+        "id": "c4a9b122e8f1b9e98197743c94fea2_9",
+        "x": "While closed-form solutions have been developed for some specialized components <cite>(Martins et al., 2011)</cite> , this problem is in general more difficult than the one arising in the subgradient algorithm.",
+        "y": "motivation background"
+    },
+    {
+        "id": "c54a1aba5845a52f468cde916c970b_6",
+        "x": "\u2022 Per-Dialogue Accuracy:<cite> Bordes and Weston (2016)</cite> also report a per-dialogue accuracy, which assesses their model's ability to produce every system response of the dialogue correctly. We calculate a similar value of dialogue accuracy, though again our model generates every token of every response.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "c60a1131c6b1639b772b0e5c59588e_10",
+        "x": "<cite>PRA-SVO</cite> and PRA-VS are the systems proposed in <cite>(Gardner et al., 2013)</cite> and (Gardner et al., 2014) respectively, where the KB graph is augmented with edges mined from a large subject-verb-object (SVO) triple corpus. In these two systems, only new edges are added over the fixed set of nodes, and the augmentation happens in a batch, offline setting. In contrast, PRA-ODA, the method proposed in the paper, also expands the set of nodes through bridging entities, and performs the augmentation in an on-demand manner.",
+        "y": "motivation differences"
+    },
+    {
+        "id": "c60a1131c6b1639b772b0e5c59588e_14",
+        "x": "For the L 1 and L 2 regularization parameters in the logistic regression classifier, we used the same values as used in (<cite>Gardner et al., 2013</cite>; Gardner et al., 2014) , viz., L 1 = 0.005, and L 2 = 1.0.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "c6bae8dbdb66092865945e776148e6_2",
+        "x": "The overall supervised model uses these shortcutstacked encoders to encode two input sentences into two vectors, and then we use a classifier over the vector combination to label the relationship between these two sentences as that of entailment, contradiction, or neural (similar to the classifier setup of Bowman et al. (2015) and <cite>Conneau et al. (2017)</cite> ).",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c6bae8dbdb66092865945e776148e6_4",
+        "x": "Then, assuming we have m layers of biLSTM, the final vector representation will be obtained by applying row-max-pool over the output of the last biLSTM layer, similar to <cite>Conneau et al. (2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "c6bae8dbdb66092865945e776148e6_5",
+        "x": "The closest encoder architecture to ours is that of <cite>Conneau et al. (2017)</cite> , whose model consists of a single-layer biLSTM with a max-pooling layer, which we treat as our starting point.",
+        "y": "extends similarities"
+    },
+    {
+        "id": "c7e304499654516cce43c550256eae_1",
+        "x": "For example, POS tags can be projected via word alignments, and the projected POS is then used to train a model in the lowresource language Zhang et al., 2016;<cite> Fang and Cohn, 2016)</cite> . These methods overall have limited effectiveness due to errors in the alignment and fundamental differences between the languages.",
+        "y": "background motivation"
+    },
+    {
+        "id": "c7e304499654516cce43c550256eae_2",
+        "x": "For example, POS tags can be projected via word alignments, and the projected POS is then used to train a model in the lowresource language Zhang et al., 2016;<cite> Fang and Cohn, 2016)</cite> . These methods overall have limited effectiveness due to errors in the alignment and fundamental differences between the languages. They also assume a large parallel corpus, which may not be available for many low-resource languages. To address these limitations, we propose a new technique for low resource tagging, with more modest resource requirements: 1) a bilingual dictionary; 2) monolingual corpora in the high and low resource languages; and 3) a small annotated corpus of around 1, 000 tokens in the low-resource language.",
+        "y": "motivation background differences"
+    },
+    {
+        "id": "c7e304499654516cce43c550256eae_6",
+        "x": "For a more direct comparison, we include BILSTM-DEBIAS<cite> (Fang and Cohn, 2016)</cite> , applied using our proposed cross-lingual supervision based on dictionaries, instead of parallel corpora; accordingly the key difference is their linear transformation for the distant data, versus our non-linear transformation to the gold data.",
+        "y": "uses differences"
+    },
+    {
+        "id": "c856f5ce5d2cdcfc71027d6fa4c6b3_0",
+        "x": "The major distinction between these methods is in the contrast between the approaches based exclusively on the information contained in the text to be segmented, such as lexical repetition (e.g., <cite>Choi 2000</cite>; Hearst 1997; Heinonen 1998; Kehagias, Pavlina, and Petridis 2003; Utiyama and Isahara 2001) , and those approaches that rest on complementary semantic knowledge extracted from dictionaries and thesauruses (e.g., Kozima 1993; Lin et al. 2004; Morris and Hirst 1991) , or from collocations collected in large corpora (Bolshakov and Gelbukh 2001; Brants, Chen, and Tsochantaridis 2002; Choi et al. 2001; Ferret 2002; Kaufmann 1999; Ponte and Croft 1997) .",
+        "y": "differences background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_0",
+        "x": "This paper has the intention of fostering synergy between the different research strands. It discusses the different research strands, details the crucial differences, and explores under which circumstances systems can be compared given publicly available data. To that end, we present results with the CoMiC-EN Content Assessment system (Meurers et al., 2011a) on the dataset published by<cite> Mohler et al. (2011)</cite> and outline what was necessary to perform this comparison.",
+        "y": "uses background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_1",
+        "x": "Subsequently, we will zoom into the comparison of two of them, namely CoMiC-EN (Meurers et al., 2011a ) and the one which we call the Texas system <cite>(Mohler et al., 2011)</cite> and discuss the issues that arise with this endeavor. Returning to the bigger picture, we will explore how such systems could be compared in general, in the belief that meaningful comparison of approaches across research strands will be an important ingredient in advancing this relatively new research field.",
+        "y": "motivation background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_4",
+        "x": [
+            "Mohler et al. (2011) mention that \"[t]he dataset is biased towards correct answers\". Data are publicly available. We used these in an evaluation experiment with the CoMiC-EN system, discussed in Section 3."
+        ],
+        "y": "uses background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_7",
+        "x": "A bias towards correct answers can be observed, which is also mentioned by<cite> Mohler et al. (2011)</cite> . Table 2 : Details on the gold standard scores in the Texas corpus. Non-integer scores result from averaging between raters and normalization onto the 0-5 scale.",
+        "y": "motivation background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_11",
+        "x": [
+            "Mohler et al. (2011) also note that in distributions with zero variance, correlation is undefined, which is not a problem as such but limits the use of correlation as evaluation metric."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_12",
+        "x": [
+            "Mohler et al. (2011) propose that RMSE is better suited to the task since it captures the relative error a system makes when trying to predict scores. However, RMSE is scale-dependent and thus RMSE values across different studies cannot be compared. We can only suggest that in order to sufficiently describe a system's performance, several metrics need to be reported."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "cb64ba694c37df9ebc1065a1deac0f_16",
+        "x": [
+            "As mentioned before, CoMiC-EN performs meaning comparison based on a system of categories while the Texas system is a scoring approach, trying to predict a grade. While the former is a classification task, the latter is better characterized as a regression problem because of the desired numerical outcome. Of course, one could simply pretend that individual grades are classes and treat scoring as a classification task. However, a classification approach has no knowledge of numerical relationships, i.e., it does not 'know' that 4 is a higher grade than 3 and a much higher grade than 1 (assuming a 0-5 scale). As a result, if an evaluation metric such as Pearson correlation is used, classification systems are at a disadvantage because some misclassifications are punished more than others."
+        ],
+        "y": "motivation background"
+    },
+    {
+        "id": "cc992a7a918858f9e04b9bb5c15c3f_4",
+        "x": "We present positive results from a fully automated judge for semantic similarity based on Referential Translation Machines<cite> (Bi\u00e7ici and Way, 2014b)</cite> in two semantic similarity tasks at SemEval-2015, Semantic Evaluation Exercises -International Workshop on Semantic Evaluation (Nakov et al., 2015) .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "cd10d509dacd8f55993396258eb92a_3",
+        "x": "We use context-independent phonemes as in<cite> [16]</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "cd10d509dacd8f55993396258eb92a_4",
+        "x": "To generate words as outputs, we search through a decoding graph similar to<cite> [16]</cite> but accept both phonemes and wordpieces.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "cffa735deb802118640005a1d527ee_2",
+        "x": "To calculate the disagreement among the committee members several metrics have been proposed including the vote entropy<cite> (Engelson and Dagan, 1996)</cite> as possibly the most well-known one. Our approach to approximating the learning curve is based on the disagreement within a committee.",
+        "y": "background similarities"
+    },
+    {
+        "id": "d0fa481abaf6d1b5529e40ff73f00a_3",
+        "x": "While this can lead to much faster convergence, the resulting models are shown to slightly underperform compared to annealing SGD<cite> (Wu et al., 2016)</cite> .",
+        "y": "motivation background differences"
+    },
+    {
+        "id": "d0fa481abaf6d1b5529e40ff73f00a_4",
+        "x": "More recent work seeks to accelerate training with the Adam algorithm, which applies momentum on a per-parameter basis and automatically adapts step size subject to a user-specified maximum (Kingma and Ba, 2015) . While this can lead to much faster convergence, the resulting models are shown to slightly underperform compared to annealing SGD<cite> (Wu et al., 2016)</cite> .",
+        "y": "motivation background"
+    },
+    {
+        "id": "d0fa481abaf6d1b5529e40ff73f00a_8",
+        "x": "As<cite> Wu et al. (2016)</cite> show different levels of effectiveness for different sub-word vocabulary sizes, we evaluate running BPE with 16K and 32K merge operations.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "d1decbc03929cbf67a412d0a3a2a66_10",
+        "x": "As soon as the meaning representations m are inferred, we find ourselves in the set-up studied in<cite> (Liang et al., 2009</cite> ): the state s is no longer latent and we can run efficient inference on the E-step.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "d42e2a9175e024e3ae44118e12fb58_3",
+        "x": "Following (Mihalcea and Strapparava, 2005; <cite>Yang et al., 2015)</cite> , we selected the same sizes (n = 4726) of humorous and non-humorous sentences.",
+        "y": "uses background"
+    },
+    {
+        "id": "d42e2a9175e024e3ae44118e12fb58_7",
+        "x": "7 https://github.com/ EducationalTestingService/skll 8 https://github.com/fchollet/keras 9 The implementation will be released with the paper On the Pun data, the CNN model shows consistent improved performance over the conventional model, as suggested in<cite> Yang et al. (2015)</cite> .",
+        "y": "similarities background"
+    },
+    {
+        "id": "d44648766e68cb914c5489e385f42e_4",
+        "x": "We extract the LLR lexicon from a word-aligned parallel corpus using the same method as<cite> (Munteanu and Marcu, 2006)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d44648766e68cb914c5489e385f42e_5",
+        "x": "Aiming to gain new knowledge that does not exist in the lexicon, we apply a smoothing filter similar to<cite> (Munteanu and Marcu, 2006)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d44648766e68cb914c5489e385f42e_6",
+        "x": "Therefore, unlike<cite> (Munteanu and Marcu, 2006)</cite>, we only apply the averaging filter to the words with negative scores.",
+        "y": "extends differences"
+    },
+    {
+        "id": "d4563562cd0dfd8ef6cdb57117fb22_4",
+        "x": "To learn the restaurant script from our dataset, we implement the models of<cite> Chambers and Jurafsky (2008)</cite> and Jans et al. (2012) , as well as the unigram baseline of Pichotta and Mooney (2014) .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "d4563562cd0dfd8ef6cdb57117fb22_5",
+        "x": "This section provides an overview of each of the different methods and parameter settings we employ to learn narrative chains from the Dinners from Hell corpus, starting with the original model<cite> (Chambers and Jurafsky, 2008)</cite> and extending to the modifications of Jans et al. (2012) .",
+        "y": "extends differences"
+    },
+    {
+        "id": "d4563562cd0dfd8ef6cdb57117fb22_7",
+        "x": "In the case of the two PMI-based models, we use the discount score described in Pantel and Ravichandran (2004) and used by<cite> Chambers and Jurafsky (2008)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "d4563562cd0dfd8ef6cdb57117fb22_8",
+        "x": "Scoring We employ three different scoring metrics: average rank<cite> (Chambers and Jurafsky, 2008)</cite> , mean reciprocal rank, and recall at 50 (Jans et al., 2012) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d66ca5ff22e508da239fc7fdf5ac29_0",
+        "x": "During the selection of linguistic indicators, we have taken into consideration previously studied features of readability (Fran\u00e7ois and Fairon, 2012; <cite>Heimann M\u00fchlenbock, 2013</cite>; Vajjala and Meurers, 2012) , L2 Swedish curricula (Levy Scherrer and Lindemalm, 2009; Folkuniversitet, 2013) and aspects of Good Dictionary Examples (GDEX) (Hus\u00e1k, 2010; Kilgarriff et al., 2008) , being that we believe they have some properties in common with exercise items.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d66ca5ff22e508da239fc7fdf5ac29_2",
+        "x": "These required less sophisticated text processing and had previously been used in several studies with success (Beinborn et al., 2012; Dell'Orletta et al., 2011; Fran\u00e7ois and Fairon, 2012; <cite>Heimann M\u00fchlenbock, 2013</cite>; Vajjala and Meurers, 2012) . We computed sentence length as the number of tokens including punctuation, and token length as the number of characters per token.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d66ca5ff22e508da239fc7fdf5ac29_4",
+        "x": "Features DepDepth, Mod, Sub and RightDep, PrepComp have previously been empoyed for Swedish L1 readability at the text level in Heimann M\u00fchlenbock (2013) and<cite> Falkenjack et al. (2013)</cite> respectively.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d68bb5264d157cc4c2d9fa9c8f82b6_8",
+        "x": "Fig 3b shows how 100 runs of the PNM yields a Heaps law exponent within the range derived by <cite>[42]</cite> for several different n-grams corpora (all English, English fiction, English GB, English US and English 1M).",
+        "y": "background similarities"
+    },
+    {
+        "id": "d68bb5264d157cc4c2d9fa9c8f82b6_10",
+        "x": "This continual change and diversity contrasts with the simplicity and consistency of Zipf's law, by which the frequency a word, f , is inversely proportional to its rank k, as f \u223c k \u2212\u03b3 and Heaps law, by which vocabulary size scales sub-linearly with total number of words, across diverse textual and spoken samples [32, 41, 46, 49, 15, 21, 48,<cite> 42]</cite> .",
+        "y": "background differences"
+    },
+    {
+        "id": "d68bb5264d157cc4c2d9fa9c8f82b6_16",
+        "x": "Fig 3b shows how 100 runs of the PNM yields a Heaps law exponent within the range derived by <cite>[42]</cite> for several different n-grams corpora (all English, English fiction, English GB, English US and English 1M).",
+        "y": "similarities background"
+    },
+    {
+        "id": "d8a250a1a0495ee824837839b74f26_1",
+        "x": "In our submission to SemEval Task 8 on AMR parsing, we follow the transition-based paradigm of <cite>Wang et al. (2015b)</cite> with modifications to the parsing algorithm, and also use the DAGGER imitation learning algorithm (Ross et al., 2011) to generalise better to unseen data.",
+        "y": "extends differences"
+    },
+    {
+        "id": "d8a250a1a0495ee824837839b74f26_7",
+        "x": "All features used are detailed in Table 2 , largely based on <cite>Wang et al. (2015b)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d8a250a1a0495ee824837839b74f26_8",
+        "x": "The key differences to <cite>Wang et al. (2015b)</cite> are the inclusion of the brown, POSpath, NERpath, prefix and suffix feature types.",
+        "y": "extends differences"
+    },
+    {
+        "id": "d9aa77a03ff98cae29701eddb414d3_4",
+        "x": "To compare with past work<cite> [3]</cite> , we pick the following twelve classes: \"yes,\" \"no,\" \"stop,\" \"go,\" \"left,\" \"right,\" \"on,\" \"off,\" unknown, and silence.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d9aa77a03ff98cae29701eddb414d3_5",
+        "x": "For consistency with past results <cite>[3,</cite> 5] , we train our models on the first version of the Google Speech Commands dataset [10] , which comprises a total of 65,000 spoken utterances for 30 short, one-second phrases.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "d9aa77a03ff98cae29701eddb414d3_7",
+        "x": "We use the res8 and res8-narrow architectures from Tang and Lin<cite> [3]</cite> as a starting point, which represent prior state of the art in residual CNNs [13] for KWS.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "dbb0178b572c2a451853737910ac86_8",
+        "x": "However,<cite> Kang et al. (2018)</cite> performed Task 2 on ICLR 2017 dataset with handcrafted features, and Task 1 in a deep learning setting. Since our approach is a deep neural network based, we crawl additional paper+reviews from ICLR 2018 to boost the training set.",
+        "y": "extends differences"
+    },
+    {
+        "id": "dbe1f1bdf7d94824f6f7cd176a4f6d_5",
+        "x": "The data split and the label set are exactly the same as previous works that use this label set (Lin et al., 2009;<cite> Ji and Eisenstein, 2015)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "dcfd8cb0179ab156a6ffcab3358a45_2",
+        "x": "A number of datasets on visual question answering have been introduced in recent years (Malinowski and Fritz 2014; Ren, Kiros, and Zemel 2015) , among which <cite>(Antol et al. 2015)</cite> in particular has gained the most attention and helped popularize the task. However, these datasets mostly consist of a small set of answers covering most of the questions, and most of the answers being single word.",
+        "y": "background motivation"
+    },
+    {
+        "id": "dd603c79f87e98d23f6f8e13028ae9_0",
+        "x": "In this paper we leverage the Machine Translation of Noisy Text (MTNT) dataset<cite> (Michel and Neubig, 2018)</cite> to enhance the robustness of MT systems by emulating naturally occurring noise in otherwise clean data.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "dd603c79f87e98d23f6f8e13028ae9_5",
+        "x": "For expediency and convenience of experimentation we have chosen to deploy a smaller, faster variant of the model used in<cite> Michel and Neubig (2018)</cite> , which allows us to provide comparative results across a variety of settings.",
+        "y": "extends differences"
+    },
+    {
+        "id": "dd603c79f87e98d23f6f8e13028ae9_7",
+        "x": "For this method, we inject artificial noise in the clean data according to the distribution of types of noise in MTNT specified in<cite> Michel and Neubig (2018)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "dd875dd5c0f2558bb173f31bbdea00_3",
+        "x": "In general it is important to mention that by this approach we are not able to detect and separate multiple meanings of words, i.e. to handle polysemy, which is appropriately accounted for in the framework of the Generative Lexicon <cite>(Pustejovsky, 1991)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "dd875dd5c0f2558bb173f31bbdea00_5",
+        "x": "For book, the first four candidates of the Formal role, i.e. product, item, publication and document are very appropriate, but alluding to the physical object meaning of book as opposed to the meaning in the sense of information container (compare <cite>(Pustejovsky, 1991)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "dd875dd5c0f2558bb173f31bbdea00_6",
+        "x": "As candidates for the Agentive role we have make, write and create which are appropriate, write being the ideal filler of the Agentive role according to <cite>(Pustejovsky, 1991)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "e2705ae777acffc894f7aa18d42771_1",
+        "x": "We show that, at least in the case of three Turkic languages (Turkish, Uzbek, and Uyghur), the original method of <cite>Zoph et al. (2016)</cite> does not always work, but it is still possible to use the parent model to considerably improve the child model.",
+        "y": "motivation uses"
+    },
+    {
+        "id": "e2705ae777acffc894f7aa18d42771_4",
+        "x": "The basic idea of our method is to extend the transfer method of <cite>Zoph et al. (2016)</cite> to share the parent and child's source vocabularies, so that when source word embeddings are transferred, a word that appears in both vocabularies keeps its embedding.",
+        "y": "extends uses"
+    },
+    {
+        "id": "e3b9c00d792bcddb6eea449179e61e_8",
+        "x": "Note that [12, 29] use different data splits, while our models and <cite>[26]</cite> use the Karpathy 5k splits [17] .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "e3dd013c944cf8dcb6ff90124a0e01_3",
+        "x": "Some of them also match the quality of state-of-the-art left-to-right models <cite>(Stern et al., 2019)</cite> .",
+        "y": "similarities background"
+    },
+    {
+        "id": "e6fe4c6c32294072dbc1ee5bb0a606_4",
+        "x": "The proposed model uses the same encoder/decoder structure as [<cite>1</cite>] ( Fig.1 ), but it differs in that encoder and decoder models are trained simultaneously using smoothed max pooling loss.",
+        "y": "uses differences similarities"
+    },
+    {
+        "id": "e6fe4c6c32294072dbc1ee5bb0a606_13",
+        "x": "We used the same frontend feature extract as the baseline [<cite>1</cite>] in our experiments.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "e6fe4c6c32294072dbc1ee5bb0a606_15",
+        "x": "We selected E2E 318K architecture in [<cite>1</cite>] as the baseline and use the same structure for testing all other models.",
+        "y": "uses similarities"
+    },
+    {
+        "id": "e7b1c00e747f5bfbb96499d7223496_6",
+        "x": "To construct the vectors for the visual representations, we follow a similar experimental set-up as that used by<cite> Lazaridou et al. (2015)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "e8c60c9fc3a2d74df632f3b423adae_0",
+        "x": "In this paper, we extend LSTM to tree structures, in which we learn memory cells that can reflect the history memories of multiple child cells and hence multiple descendant cells. Compared with previous recursive neural networks (<cite>Socher et al., 2013</cite>; 2012) , S-LSTM has the potentials of avoiding gradient vanishing and hence may model long-distance interaction over trees.",
+        "y": "differences motivation"
+    },
+    {
+        "id": "e8c60c9fc3a2d74df632f3b423adae_24",
+        "x": "Since for these models, phrase-level training signals are not available-the nodes here do not correspond to that in the <cite>original Standford Sentiment Tree Bank</cite>, but the roots and leafs annotations are still the same, so we run two versions of our experiments: one uses only training signals from roots and the other includes also leaf annotations.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "e9e733d38affa8a39a633ffb4d9d71_9",
+        "x": "Those systems such as <cite>Krishna et al. (2016)</cite> can be used to identify the morphological tags of the system as <cite>they</cite> currently store the morphological information of predicted candidates, but do not use them for evaluation as of now.",
+        "y": "motivation background"
+    },
+    {
+        "id": "ebb79e6e223d4747987aa4abfd1a58_2",
+        "x": "As in<cite> Artetxe et al. (2018b)</cite> , the term was set to 0.001.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ebb79e6e223d4747987aa4abfd1a58_3",
+        "x": "The SMT system trained on synthetic data eliminates the noisy phrase pairs using 2 As in<cite> Artetxe et al. (2018b)</cite> , \u03c4 is estimated by maximizing the phrase translation probability between an embedding and the nearest embedding on the opposite side.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ee66681690f2c92fe705a09bf7015d_0",
+        "x": "Our results demonstrate a significant improvement in accuracy of 7.2% over a statistical machine translation (SMT) system (Zens et al., 2005) and of 2.2% over a perceptron-based edit model <cite>(Freitag and Khadivi, 2007)</cite> .",
+        "y": "background differences"
+    },
+    {
+        "id": "ee66681690f2c92fe705a09bf7015d_1",
+        "x": "Given a source sequence f computing the best scoring target sequence e = arg max e \u2032 s(e \u2032 , f ) among all possible sequences E * requires a beam search procedure <cite>(Freitag and Khadivi, 2007)</cite> .",
+        "y": "uses background"
+    },
+    {
+        "id": "ee8163c5a76ed9f929a960b3086356_2",
+        "x": "The results demonstrate a substantial error reduction with respect to a word-vector-based method of<cite> Mikolov et al. (2013b)</cite> , when using the same word vectors on six source-target pairs.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ee8163c5a76ed9f929a960b3086356_3",
+        "x": "We adapt the approach of<cite> Mikolov et al. (2013b)</cite> for learning a linear transformation between the source and target vector spaces to enable it to function given only a small, noisy seed.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ee8163c5a76ed9f929a960b3086356_6",
+        "x": "In this section we compare our method to two prior methods, our reimplementation of the supervised word-vector-based method of<cite> Mikolov et al. (2013b)</cite> (using the same vectors as our method), and the reported results of an EM-based method of Haghighi et al. (2008) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ee8163c5a76ed9f929a960b3086356_8",
+        "x": "The results in Table 2 show that the method of<cite> Mikolov et al. (2013b)</cite> (MIK13-Auto) , represented by the first translation matrix derived on our automatically extracted the seed lexicon, performs well below the edit distance baseline.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f1e5584a2139160943d9f0338e6ce0_0",
+        "x": "We explore blindfold (question-only) baselines for <cite>Embodied Question Answering</cite>. The <cite>EmbodiedQA</cite> task requires an agent to answer a question by intelligently navigating in a simulated environment, gathering necessary visual information only through first-person vision before finally answering. Consequently, a blindfold baseline which ignores the environment and visual information is a degenerate solution, yet we show through our experiments on the EQAv1 dataset that a simple question-only baseline achieves state-of-the-art results on the EmbodiedQA task in all cases except when the agent is spawned extremely close to the object.",
+        "y": "background motivation"
+    },
+    {
+        "id": "f1e5584a2139160943d9f0338e6ce0_14",
+        "x": "Viewing these results holistically, we conclude that current methods for the <cite>EmbodiedQA</cite> task are not effective at using context from the environment, and in fact this negatively hampers them. This shows that there is room for building new models that leverage the context and embodiment in the environment.",
+        "y": "uses motivation"
+    },
+    {
+        "id": "f1e5584a2139160943d9f0338e6ce0_17",
+        "x": "T 20 T 50 T any Navigation + VQA <cite>PACMAN</cite> (BC) <cite>[5]</cite> 48 BOW-CNN VQA-Only 56.5 Table 1 : We compare to the published results from [6] for agent spawned at various steps away from the target: 10, 30, 50, and anywhere in the environment.",
+        "y": "uses differences"
+    },
+    {
+        "id": "f24dde456e02fdb8e65799685275d2_10",
+        "x": "Row F shared a highly analogous CNN structure with Architecture II in<cite> (Feng et al., 2015)</cite> , except that the later used a shallow hidden layer to transform the word embeddings into the input of CNN structure, while Row F take the output of biLSTM as CNN input.",
+        "y": "similarities differences"
+    },
+    {
+        "id": "f2b9a5633600cdf787111841bf9ce6_2",
+        "x": "Here we focus on two CNN studies that report high performances on categorizing long documents (as opposed to categorizing individual sentences): \u2022 Our earlier work (2015) [3,<cite> 4]</cite> : shallow word-level CNNs (taking sequences of words as input), which we abbreviate as word-CNN. \u2022 Conneau et al. (2016) [1]: very deep character-level CNNs (taking sequences of characters as input), which we abbreviate as char-CNN. Although both studies report higher accuracy than previous work on their respective datasets, it is not clear how they compare with each other due to lack of direct comparison.",
+        "y": "motivation background"
+    },
+    {
+        "id": "f32bbd580d93f77ef764c5341b93db_3",
+        "x": "Any network architecture for end-toend speech recognition can be used here, while Fig. 3 gives the one used in this work, following the previous work<cite> [13]</cite> of integrating attentioned Seq2seq with CTC.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f32bbd580d93f77ef764c5341b93db_4",
+        "x": "During testing,\u1ef9 andy are integrated into a single output sequence just as done in the previous work<cite> [13]</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f32bbd580d93f77ef764c5341b93db_5",
+        "x": "We followed the previous work<cite> [13,</cite> 21] to use 80-dimensional log Mel-filter bank and 3-dimensional pitch features as the acoustic features.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f32bbd580d93f77ef764c5341b93db_6",
+        "x": "For the ASR model, the encoder included a 6layer VGG extractor with downsampling used in the previous work<cite> [13]</cite> and a 5-layer BLSTM with 320 units per direction.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f34768f61dd3d95648ad9a70e83d2c_13",
+        "x": "The second category designed by<cite> [39]</cite> is more qualitative.",
+        "y": "uses background"
+    },
+    {
+        "id": "f34768f61dd3d95648ad9a70e83d2c_16",
+        "x": "We compare our hierarchical model against three systems. \u2022 Wiseman<cite> [39]</cite> is a standard encoder-decoder system with copy mechanism.",
+        "y": "uses background"
+    },
+    {
+        "id": "f36b605a9088532e5f430c86ffb363_1",
+        "x": "Vector space models, representing word meanings as points in high-dimensional space, have been used in a variety of semantic relatedness tasks (Sahlgren, 2006; <cite>Pad\u00f3 and Lapata, 2007)</cite> . We study the relationship between vector space models and graph random walk models by embedding vector space models in graphs.",
+        "y": "uses background"
+    },
+    {
+        "id": "f3e9e5d7fb4001e3d29a171b5eb4a4_1",
+        "x": "Similarly to<cite> Liang et al. (2016)</cite> , we employ a sequence-to-sequence model to learn query expressions and their compositions.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f587fc2bbbf3c1327b03d556e4bc05_7",
+        "x": "The competing methods are the paragraph vectors<cite> (Le and Mikolov, 2014)</cite> , skip-thought vectors (Kiros et al., 2015) , Fastsent (Hill et al., 2016) , Sequential (Denoising) Autoencoders (SDAE) (Hill et al., 2016) .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f5d1c0d3ac45ea4949f7d01d1704f6_0",
+        "x": "In this work, we propose a semisupervised extension to a well-known supervised domain adaptation approach (EA) <cite>(Daum\u00e9 III, 2007)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "f5d1c0d3ac45ea4949f7d01d1704f6_2",
+        "x": "However, the proposed techniques extend to non-linear hypotheses, as mentioned in <cite>(Daum\u00e9 III, 2007)</cite> .",
+        "y": "extends differences"
+    },
+    {
+        "id": "f5d1c0d3ac45ea4949f7d01d1704f6_4",
+        "x": "As mentioned earlier, this work considers linear hypotheses only and the the proposed techniques can be extended <cite>(Daum\u00e9 III, 2007)</cite> to non-linear hypotheses.",
+        "y": "extends differences"
+    },
+    {
+        "id": "f5d1c0d3ac45ea4949f7d01d1704f6_7",
+        "x": "We follow the same experimental setup used in <cite>(Daum\u00e9 III, 2007)</cite> and perform two sequence labelling tasks (a) named-entity-recognition (NER), and (b) part-of-speech-tagging (POS )on the following datasets:",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f6694f359ae948b6e4563b927a672c_4",
+        "x": "As discussed before, (Mikolov et al., 2013b) and <cite>(Xing et al., 2015)</cite> were implemented as part of our framework, so they correspond to our uncostrained mapping with no preprocessing and orthogonal mapping with length normalization, respectively.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "f6694f359ae948b6e4563b927a672c_7",
+        "x": "This paper develops a new framework to learn bilingual word embedding mappings, generalizing previous work and providing an efficient exact method to learn the optimal transformation. Our experiments show the effectiveness of the proposed model and give strong empirical evidence in favor of our reinterpretation of <cite>Xing et al. (2015)</cite> and Faruqui and Dyer (2014) .",
+        "y": "extends differences"
+    },
+    {
+        "id": "f7e80cf0a6724675cab2825cbf7e10_1",
+        "x": "<cite>(Herbelot and Vecchi, 2015)</cite> investigated a method to map word embeddings to formal semantics, which is the center of interest of this paper.",
+        "y": "uses background"
+    },
+    {
+        "id": "f8c992a887a7b7af8b3aa45f72dca7_7",
+        "x": "As in<cite> Yannakoudakis et al. (2011)</cite> , we analyze all texts using the RASP toolkit (Briscoe et al., 2006) 4 .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "fa5413db2c8e0a32bc3805d25cd0e7_1",
+        "x": "Previous approaches benefit mostly from crosslingual n-gram embeddings, but recent work proves that cross-lingual language model pretraining could be a more effective way to build initial unsupervised machine translation models <cite>(Lample and Conneau, 2019)</cite> .",
+        "y": "motivation background"
+    },
+    {
+        "id": "fa5413db2c8e0a32bc3805d25cd0e7_3",
+        "x": "Following Devlin et al. (2018) ;<cite> Lample and Conneau (2019)</cite> , in our CMLM objective, we randomly sample 15% of the BPE ngrams from the text streams, and replace them by [MASK] tokens 70% of the time.",
+        "y": "extends differences"
+    },
+    {
+        "id": "fa5413db2c8e0a32bc3805d25cd0e7_5",
+        "x": "Our CMLM is optimized based on the pre-trained models released by<cite> Lample and Conneau (2019)</cite> 1 , which are trained with Wikipedia dumps.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "fb1061d28dbf80858c1a630621a975_3",
+        "x": "Training Procedure: Following<cite> (Jiang et al., 2018)</cite> , apart from a new thread, we consider the candidate threads (Active Threads) in Eq. 1 only from those appearing in one hour time-frame before m i .",
+        "y": "extends differences"
+    },
+    {
+        "id": "fb1061d28dbf80858c1a630621a975_4",
+        "x": "We strictly follow<cite> (Jiang et al., 2018)</cite> to construct our data.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "fb1061d28dbf80858c1a630621a975_5",
+        "x": "Reddit Dataset Improvement: We use the same pre-processing method in<cite> (Jiang et al., 2018)</cite> : we discard the messages which have less than 10 words or more than 100 words.",
+        "y": "similarities uses"
+    },
+    {
+        "id": "fb1061d28dbf80858c1a630621a975_7",
+        "x": "833 .431 .433 Evaluation Metrics: Normalized mutual information (NMI), Adjusted rand index (ARI) and F1 score, following<cite> (Jiang et al., 2018)</cite> .",
+        "y": "uses similarities"
+    },
+    {
+        "id": "fc58a9813b80afc9811b8ee27679b7_3",
+        "x": "Following previous works (Huang and Riloff, 2011;<cite> Huang and Riloff, 2012a)</cite> , we only consider the \"String Slots\" in this work (other slots need different treatments) and we group certain slots to finally consider the five slot types PerpInd (individual perpetrator), PerpOrg (organizational perpetrator), Target (physical target), Victim (human target name or description) and Weapon (instrument id or type).",
+        "y": "uses similarities"
+    },
+    {
+        "id": "fd7bae08fd3e69744a3980daa1a649_0",
+        "x": "Paragraph vectors (Le and Mikolov, 2014 ) are a recent method for embedding pieces of natural language text as fixed-length, real-valued vectors. Extending the word2vec framework <cite>(Mikolov et al., 2013b)</cite> , paragraph vectors are typically presented as neural language models, and compute a single vector representation for each paragraph. Unlike word embeddings, paragraph vectors are not shared across the entire corpus, but are instead local to each paragraph. When interpreted as a latent variable, we expect them to have higher uncertainty when the paragraphs are short.",
+        "y": "motivation background"
+    },
+    {
+        "id": "fe2f22d3d25358b23d0b75a6edee57_3",
+        "x": "We used the same split as<cite> (Zhou et al., 2017)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ffd65a1a02c852a2670b471fb4b110_3",
+        "x": "arXiv:1911.05689v1 [cs.CL] 13 Nov 2019 <cite>Wang et al. (2018)</cite> present the semantic plausibility dataset that we use for evaluation in this work, and they show that distributional methods fail on this dataset.",
+        "y": "uses background"
+    },
+    {
+        "id": "ffd65a1a02c852a2670b471fb4b110_6",
+        "x": "We follow the same evaluation procedure as previous work and perform cross validation on the 3,062 labeled triples<cite> (Wang et al., 2018)</cite> .",
+        "y": "similarities uses"
+    },
+    {
+        "id": "ffd65a1a02c852a2670b471fb4b110_9",
+        "x": "For the supervised setting, we follow the same evaluation procedure as <cite>Wang et al. (2018)</cite> : we perform 10-fold cross validation on the dataset of 3,062 s-v-o triples, and report the mean accuracy of running this procedure 20 times all with the same model initialization (Table 3) .",
+        "y": "similarities uses"
+    }
+]
