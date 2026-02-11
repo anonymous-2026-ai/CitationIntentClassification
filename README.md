@@ -10,7 +10,7 @@ Besides, to run the clustering algorithm, we downloaded 2 additional libraries f
 
 2) GMM: https://github.com/ldeecke/gmm-torch
 
-and modified them for our implementation. You can use them directly in our folder without any additional steps. 
+and modified them for our implementation. You should use them directly in our folder without any additional steps. 
 
 # Preparing Datasets
 
