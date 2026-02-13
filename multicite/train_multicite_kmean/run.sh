@@ -1,6 +1,6 @@
 for LEARNING_RATE in 1e-6 2e-6 3e-6 4e-6 5e-6 1e-5 2e-5 
 do
-for num_epoch in 5 10 
+for num_epoch in 3 5 7 10 
 do
 for n_word in 1 2 3 
 do
