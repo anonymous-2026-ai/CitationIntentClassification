@@ -45,7 +45,7 @@ class Model(nn.Module):
 		if toks_embed.shape[0] >= 2 :
 
 			cluster_ids_x, cluster_centers = kmeans(
-			X=toks_embed, num_clusters=2, distance='euclidean', device=torch.device('cuda:0'), tol = 1e-3, tqdm_flag = False
+			X=toks_embed, num_clusters=2, distance='euclidean', device=torch.device('cuda:0'), tol = 1e-3, tqdm_flag = False, seed=100
 			)		
 		else:
 			cluster_centers = torch.rand(2 , toks_embed.shape[1])
