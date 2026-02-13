@@ -45,7 +45,7 @@ class Model(nn.Module):
 		if toks_embed.shape[0] >= 4 :
 
 			cluster_ids_x, cluster_centers = kmeans(
-			X=toks_embed, num_clusters=4, distance='euclidean', device=torch.device('cuda:0'), tol = 1e-3, tqdm_flag = False
+			X=toks_embed, num_clusters=4, distance='euclidean', device=torch.device('cuda:0'), tol = 1e-3, tqdm_flag = False, seed = 0
 
 			)		
 		else:
