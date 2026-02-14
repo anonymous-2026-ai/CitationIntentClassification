@@ -6,7 +6,7 @@ for n_sent in 1 2 3
 do
 for bs in 2 4 8 16 32
 do
-for SEED in 0
+for SEED in 100
 do
 for save_step in 1000
 do 
