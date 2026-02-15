@@ -21,7 +21,7 @@ do
         --do_train --do_eval \
         --data_dir ../../datasets/data_multicite/ \
         --max_seq_length 512 --per_gpu_train_batch_size 1 \
-        --learning_rate ${LEARNING_RATE} --num_train_epochs 10 \
+        --learning_rate ${LEARNING_RATE} --num_train_epochs 5 \
         --output_dir result_baseline --seed ${SEED} \
         --classification_type multilabel --overwrite_cache \
         --overwrite_output_dir --gradient_accumulation_steps ${bs} \
