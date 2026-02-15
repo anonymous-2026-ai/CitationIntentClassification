@@ -383,7 +383,13 @@ def evaluate(args, model, tokenizer, prefix="", processor=None, save_output = '.
 			preds_old = preds
 			pred_probs = torch.sigmoid(torch.tensor(preds_old)).detach().cpu().numpy()
 			# TODO: Output all labels with prob > 0.5
-			preds = [np.argwhere(x > 0.5) for x in pred_probs]
+			preds = [] 
+			for x in pred_probs:
+				predict_index = np.argwhere(x > 0.5)
+				if predict_index.size == 0:          # không có phần tử nào > 0.5
+					i = np.argmax(x)
+					predict_index = np.array([[i]]) # format giống argwhere cho vector 1D
+				preds.append(predict_index)
 		elif args.output_mode == "regression":
 			preds = np.squeeze(preds)
 		label_list = processor.get_labels()
