@@ -2,7 +2,7 @@
 This repository contains the implementation for our submitted manuscript. We are actively refining the codebase, improving documentation, and refactoring for better clarity during the peer-review process.
 
 # Requirements
-To run our system, you only need to install some very basic libraries such as: pytorch, transformers = 4.32.1, nltk.  
+To run our system, you only need to install some very basic libraries such as: pytorch, nltk, transformers = 4.32.1.  
 
 Besides, to run the clustering algorithm, we downloaded 2 additional libraries for k-means and GMM from the following links:
 
