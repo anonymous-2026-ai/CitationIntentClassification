@@ -45,7 +45,7 @@ First, we set up a single-GPU environment for each run by executing: export CUDA
 
 to ensure the model only utilizes one specific device.  You should follow the following steps to start the testing process. 
 
-Step 1: Select the optimal checkpoint based on your preferred performance metrics and transfer it from the train_folder to the test_folder for evaluation.
+Step 1: Select the optimal checkpoint based on your preferred performance metrics and transfer it from the train_folder to the test_folder for evaluation. You also have to change the path to your dataset with '--data_dir' parameter in 'run.sh' file.  
 
 Step 2: In the test_folder, please name the test model as 'model_test'. 
 
