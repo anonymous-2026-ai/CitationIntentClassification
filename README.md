@@ -11,10 +11,12 @@ To set up the reproducible research environment, you need to follow the followin
    conda activate syn_intent
 
 2) Install Python packages:
+
+   cd CitationIntentClassification/
    
    pip install -r requirements.txt
 
-3) NLTK resource setup:
+4) NLTK resource setup:
    
    python -c "import nltk; nltk.download('all')"
 
