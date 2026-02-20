@@ -10,6 +10,12 @@ To set up the reproducible research environment, you need to follow the followin
 
    conda activate syn_intent
 
+2) Install Python packages:
+   pip install -r requirements.txt
+
+3) NLTK resource setup:
+   python -c "import nltk; nltk.download('all')"
+
 Besides, to run the clustering algorithm, we downloaded 2 additional libraries for k-means and GMM from the following links:
 
 1) k-means: https://github.com/subhadarship/kmeans_pytorch
