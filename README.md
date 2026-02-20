@@ -2,7 +2,13 @@
 This repository contains the implementation for our submitted manuscript. We are actively refining the codebase, improving documentation, and refactoring for better clarity during the peer-review process.
 
 # Requirements
-To run our system, you only need to install some very basic libraries such as: pytorch, nltk, transformers = 4.32.1.  
+To set up the reproducible research environment, you need to follow the following steps: 
+
+1) Install Conda and Python 3.11:
+
+   conda create -n syn_intent python=3.11
+
+   conda activate syn_intent
 
 Besides, to run the clustering algorithm, we downloaded 2 additional libraries for k-means and GMM from the following links:
 
