@@ -61,7 +61,7 @@ First, we set up a single-GPU environment for each run by executing: export CUDA
 
 to ensure the model only utilizes one specific device.  You should follow the following steps to start the testing process. 
 
-Step 1: Select the checkpoints that give the best performances on the development sets and transfer them from the train_folder to the test_folder for testing. You also have to change the path to your dataset with '--data_dir' parameter in 'run.sh' file. Note that, for the MultiCite dataset, we select the checkpoint for testing if it gives the highest score in both strict and weak metrics on the MultiCite development set. On the ACL-ARC and SciCite datasets, we select the checkpoints for testing if they give the best score in micro-F1 on the development sets of ACL-ARC and SciCite datasets, respectively. 
+Step 1: Select the checkpoints that give the best performances on the development sets and transfer them from the train_folder to the test_folder for testing. You also have to change the path to your dataset with '--data_dir' parameter in 'run.sh' file. Note that, for the MultiCite dataset, we select the checkpoint for testing if it gives the highest score in both strict and weak metrics on the MultiCite development set. On the ACL-ARC and SciCite datasets, we select the checkpoints for testing if they give the best scores in micro-F1 on the development sets of ACL-ARC and SciCite datasets, respectively. 
 
 Step 2: In the test_folder, please name the test model as 'model_test'. 
 
